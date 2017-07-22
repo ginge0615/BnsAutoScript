@@ -1,0 +1,4 @@
+﻿#大马蜂
+#KEY=F1
+#CONTINUE
+KEY G 4000 REAL

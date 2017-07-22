@@ -1,0 +1,5 @@
+﻿#吃药
+#KEY=7
+#CONTINUE
+#SUB
+KEY 7

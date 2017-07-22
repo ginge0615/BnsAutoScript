@@ -1,0 +1,6 @@
+#2
+#KEY=2
+#FIGHT
+#CONTINUE
+KEY 2
+KEY F

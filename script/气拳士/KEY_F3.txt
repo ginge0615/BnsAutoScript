@@ -1,0 +1,8 @@
+﻿#寒气暴风
+#KEY=F3
+#FIGHT
+#CONTINUE
+KEY V
+{
+KEY_SLEEP[0] F
+}120

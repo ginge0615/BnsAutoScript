@@ -1,0 +1,8 @@
+﻿#天龙拳
+#KEY=SPACE
+#SUB
+#CONTINUE
+KEY V
+{
+KEY_SLEEP[40] F
+}100

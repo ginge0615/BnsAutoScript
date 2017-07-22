@@ -1,0 +1,6 @@
+﻿#真空反制+火焰伤害
+#KEY=PAGE_DOWN
+#SUB
+#CONTINUE
+#CASE1
+KEY_SLEEP[100] F

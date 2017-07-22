@@ -1,0 +1,4 @@
+﻿#大榔头
+#KEY=C
+#SUB
+KEY C

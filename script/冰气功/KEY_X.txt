@@ -1,0 +1,4 @@
+﻿#冰河掌
+#KEY=X
+#SUB
+KEY X

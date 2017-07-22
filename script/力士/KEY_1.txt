@@ -1,0 +1,5 @@
+#1
+#KEY=1
+#NOFIGHT
+#SUB
+KEY 1

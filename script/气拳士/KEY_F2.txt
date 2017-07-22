@@ -1,0 +1,7 @@
+﻿#寒气暴风
+#KEY=F2
+#CONTINUE
+KEY V
+{
+KEY_SLEEP[200] F
+}5

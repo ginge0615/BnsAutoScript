@@ -1,0 +1,4 @@
+﻿#雪冰掌
+#KEY=Z
+#SUB
+KEY Z

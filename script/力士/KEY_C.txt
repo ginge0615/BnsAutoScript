@@ -1,0 +1,7 @@
+#烈火轮
+#KEY=C
+#SUB
+#CONTINUE
+KEY C 烈火轮
+PAUSE 400
+KEY_SLEEP[0] C 烈火轮

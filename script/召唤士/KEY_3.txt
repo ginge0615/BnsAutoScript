@@ -1,0 +1,7 @@
+﻿#花粉
+#KEY=3
+#SUB
+#CONTINUE
+{
+KEY 3 200
+}3

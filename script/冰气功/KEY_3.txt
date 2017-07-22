@@ -1,0 +1,7 @@
+#眩晕
+#KEY=3
+#SUB
+#CONTINUE
+{
+KEY 3 200
+}4

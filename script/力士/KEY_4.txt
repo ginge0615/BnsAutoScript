@@ -1,0 +1,9 @@
+#灭绝
+#KEY=4
+#SUB
+#NOFIGHT
+#CASE1
+KEY Z
+KEY 4
+#CASE3
+KEY 4 灭绝

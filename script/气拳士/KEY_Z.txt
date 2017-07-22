@@ -1,0 +1,11 @@
+﻿#内功集中
+#KEY=Z
+#FIGHT
+#CONTINUE
+KEY 2
+KEY C
+KEY Z
+KEY V
+{
+KEY_SLEEP[40] F
+}100

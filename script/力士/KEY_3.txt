@@ -1,0 +1,7 @@
+﻿#天崩地裂
+#KEY=3
+#SUB
+#CONTINUE
+KEY_SLEEP[200] 3 天崩地裂
+KEY_SLEEP[200] 3 天崩地裂
+KEY_SLEEP[200] 3 天崩地裂

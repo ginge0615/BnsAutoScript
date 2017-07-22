@@ -1,0 +1,4 @@
+﻿#卡刀
+#KEY=Q
+#LOOP
+MOUSE_LEFT

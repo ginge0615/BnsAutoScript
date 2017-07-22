@@ -1,0 +1,10 @@
+#霸王击鼎
+#KEY=X
+#CONTINUE
+#CASE1
+KEY E 愤怒
+KEY X 霸王击鼎
+#CASE2
+{
+KEY X
+}8

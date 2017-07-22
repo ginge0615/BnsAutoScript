@@ -1,0 +1,4 @@
+#霜火步
+#KEY=R
+KEY_SLEEP[0] Q
+KEY_SLEEP[0] E

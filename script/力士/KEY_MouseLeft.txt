@@ -1,0 +1,5 @@
+﻿#歼灭
+#KEY=PAGE_UP
+#SUB
+#CONTINUE
+KEY F
