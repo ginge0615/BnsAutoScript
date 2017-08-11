@@ -5,6 +5,9 @@ import bns.thread.AutoFightKeyThreadAbstract;
 
 public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 //	private org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(AutoFightByColor.class);
+	
+	private long preLBTime = 0l;
+	
 	/**
 	 * 执行自定义技能
 	 * @return true:循环执行   false:单次执行
@@ -22,16 +25,17 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 			if (isColorOkCached("V")) {
 				keyPress("V", 150);//斩杀
 			}
+			
 		}
 		
 		if (isColorOkCached("狂暴")) {
 			if (isColorOkCached("TAB")) {
 				keyPress("TAB");
+				for (int i = 0; i < 200; i++) {
+					mousePress(BnsConst.MOUSE_RIGHT, 20, 20, true);
+				}
 			}
 			
-			for (int i = 0; i < 200; i++) {
-				mousePress(BnsConst.MOUSE_RIGHT, 20, 20, true);
-			}
 		}
 		
 		//妄想
