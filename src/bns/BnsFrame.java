@@ -187,11 +187,11 @@ public class BnsFrame extends JFrame {
         	
             @Override  
             public void mouseDragged(MouseEvent e) {  
-                int xOnScreen = e.getXOnScreen();  
-                int yOnScreen = e.getYOnScreen();
-                int xx = xOnScreen - mousePressedX;  
-                int yy = yOnScreen - mousePressedY;
-                BnsFrame.this.setLocation(xx, yy);
+//                int xOnScreen = e.getXOnScreen();  
+//                int yOnScreen = e.getYOnScreen();
+//                int xx = xOnScreen - mousePressedX;  
+//                int yy = yOnScreen - mousePressedY;
+//                BnsFrame.this.setLocation(xx, yy);
             }
         });
 	}
@@ -201,10 +201,10 @@ public class BnsFrame extends JFrame {
 	 */
 	private void exit() {
 		//保存画面坐标
-		Point pt = BnsFrame.this.getLocation();
-		propSave.setProperty("LOCATION_X", (int)pt.getX());
-        propSave.setProperty("LOCATION_Y", (int)pt.getY());
-        propSave.saveProperties();
+//		Point pt = BnsFrame.this.getLocation();
+//		propSave.setProperty("LOCATION_X", (int)pt.getX());
+//        propSave.setProperty("LOCATION_Y", (int)pt.getY());
+//        propSave.saveProperties();
         
 		SystemTray.getSystemTray().remove(trayIcon);
 		JIntellitype.getInstance().cleanUp();

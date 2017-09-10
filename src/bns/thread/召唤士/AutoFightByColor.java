@@ -6,10 +6,16 @@ import bns.thread.AutoFightKeyThreadAbstract;
 public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 	private org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(AutoFightByColor.class);
 	
-	private long preTimekeyF = 0l;
 	private boolean isAutoQ = false;
 	private long startFightTime = 0l;
 	private long preTabTime = 0l;
+	
+	/** 常春藤*/
+	private long preTimeChangchunteng = 0l;
+//	/** 飞栗球*/
+//	private long preTimeFeiliqiu = 0l;
+	/** 牵牛花*/
+	private long preTimeQianniuhua = 0l;
 	
 	/**
 	 * 执行自定义技能
@@ -25,9 +31,9 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 			startFightTime = System.currentTimeMillis();
 			
 //			if (fm.getCase() != 1) {
-//				if (isColorOK("投掷花粉")) keyPress("3", 600);//花粉
-//				if (isColorOkCached("常春藤")) keyPress("1", 600);//常春藤
-//				if (fm.getCase() != 3 && isColorOkCached("荆棘藤")) keyPress("2");//荆棘藤
+				if (isColorOK("投掷花粉")) keyPress("3", 600);//花粉
+				if (isColorOkCached("常春藤")) keyPress("1", 600);//常春藤
+				if (fm.getCase() != 3 && isColorOkCached("荆棘藤")) keyPress("2");//荆棘藤
 //			}
 		}
 		 
@@ -43,20 +49,21 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 			keyPress("2");
 		} 
 		
-		else if (isColorOkCached("投掷花粉") && isColorOkCached("向日葵")) {
+		else if (isColorOkCached("投掷花粉") && !isColorOkCached("大向日葵")) {
 			keyPress("3");
 		}
 		
-		else if (isColorOkCached("常春藤")) {
+		else if (isColorOkCached("常春藤") && System.currentTimeMillis() - preTimeQianniuhua >= 9500) {
+			preTimeChangchunteng = System.currentTimeMillis();
 			keyPress("1");
 		}
 		
-		else if (isColorOkCached("板栗球")) {
+		else if (isColorOkCached("板栗球") && System.currentTimeMillis() - preTimeQianniuhua >= 5500) {
 			keyPress("F");
-			preTimekeyF = System.currentTimeMillis();
 		}
 		
-		else if (System.currentTimeMillis() - preTimekeyF >= 5500 && isColorOkCached("牵牛花")) {
+		else if (isColorOkCached("牵牛花") && System.currentTimeMillis() - preTimeChangchunteng >= 14500) {
+			preTimeQianniuhua = System.currentTimeMillis();
 			keyPress("F");
 		}
 		

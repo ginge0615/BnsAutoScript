@@ -13,10 +13,15 @@ class KeyCommon {
 		
 		while (cnt < 3) {
 			if (th.isColorOK("TAB")) {
+				th.sleep(300);
 				th.keyPress("TAB");
 				long nowTime = System.currentTimeMillis();
 				while (System.currentTimeMillis() - nowTime <= 8000 && !th.isPause) {
-					th.mousePress(BnsConst.MOUSE_RIGHT);
+					if (th.isColorOK("F")) {
+						th.keyPress("F");
+					} else {
+						th.mousePress(BnsConst.MOUSE_LEFT);
+					}
 				}
 				
 				return;
