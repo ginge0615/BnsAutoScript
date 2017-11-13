@@ -28,6 +28,7 @@ public class KeyListener implements NativeKeyListener {
 
 	public void nativeKeyPressed(NativeKeyEvent e) {
 		logger.debug(e.paramString());
+		logger.debug("Modifiers=" + e.getModifiers() + "  code=" + e.getKeyCode());
 		
 //		//Off的状态下连续按2次Q开始战斗
 //		if (e.getKeyCode() == NativeKeyEvent.VC_Q && 
@@ -41,7 +42,8 @@ public class KeyListener implements NativeKeyListener {
 		
 		if (frame.getStatus() == BnsFrame.STATUS_OFF) return;
 		
-		if (e.getKeyCode() == NativeKeyEvent.VC_ENTER) {
+		if (e.getKeyCode() == NativeKeyEvent.VC_ENTER || 
+			(e.getModifiers()== 1 && e.getKeyCode() == NativeKeyEvent.VC_1)	) {
 			frame.getBnsHotkeyListener().doOff();
 			return;
 		}

@@ -30,11 +30,11 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 			isAutoQ = false;
 			startFightTime = System.currentTimeMillis();
 			
-//			if (fm.getCase() != 1) {
+			if (fm.getCase() != 1) {
 				if (isColorOK("投掷花粉")) keyPress("3", 600);//花粉
 				if (isColorOkCached("常春藤")) keyPress("1", 600);//常春藤
 				if (fm.getCase() != 3 && isColorOkCached("荆棘藤")) keyPress("2");//荆棘藤
-//			}
+			}
 		}
 		 
 		//卡刀
