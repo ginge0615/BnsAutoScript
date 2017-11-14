@@ -72,8 +72,8 @@ public interface BnsConst {
 	enum CAREER {
 		召唤士,
 		冰气功,
-		枪手,
-		气拳士,
+		火枪手,
+		暗枪手,
 		咒术士,
 		力士,
 		时空塔,
