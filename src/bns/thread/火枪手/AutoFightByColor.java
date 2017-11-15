@@ -1,4 +1,4 @@
-package bns.thread.枪手;
+package bns.thread.火枪手;
 
 import bns.BnsConst;
 import bns.thread.AutoFightKeyThreadAbstract;

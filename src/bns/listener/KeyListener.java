@@ -63,7 +63,7 @@ public class KeyListener implements NativeKeyListener {
 		}
 		
 		//召唤枪手专用
-		if (frame.getCareer().equals(BnsConst.CAREER.召唤士) || frame.getCareer().equals(BnsConst.CAREER.枪手)) {
+		if (frame.getCareer().equals(BnsConst.CAREER.召唤士) || frame.getCareer().equals(BnsConst.CAREER.火枪手)) {
 			// E貓
 			if ((e.getKeyCode() == NativeKeyEvent.VC_E) && preEvent != null
 					&& (preEvent.getKeyCode() == NativeKeyEvent.VC_E)) {

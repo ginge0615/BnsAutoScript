@@ -1,4 +1,4 @@
-package bns.thread.枪手;
+package bns.thread.火枪手;
 
 import bns.BnsConst;
 import bns.thread.KeyThreadAbstract;
@@ -18,29 +18,21 @@ public class KeyTab extends KeyThreadAbstract {
 	protected boolean runSkill() throws InterruptedException, Exception {
 		log.debug("KeyTab");
 		
-		int cnt = 0;
-		
-		while (cnt < 3) {
-			if (isColorOK("TAB")) {
-				Thread.sleep(500);
-				keyPress("TAB");
-				long nowTime = System.currentTimeMillis();
-				while (System.currentTimeMillis() - nowTime <= 8000 && !isPause) {
-					if (isColorOK("F")) {
-						keyPress("F");
-					} else {
-						mousePress(BnsConst.MOUSE_LEFT);
-					}
+		if (isColorOK("审判")) {
+			keyPress("TAB");
+			long nowTime = System.currentTimeMillis();
+			while (System.currentTimeMillis() - nowTime <= 8000 && !isPause) {
+				if (isColorOK("F")) {
+					keyPress("F");
+				} else {
+					mousePress(BnsConst.MOUSE_LEFT);
 				}
-				
-				return false;
 			}
-			
-			cnt++;
+
+		} else {
+			keyPress("TAB");
 		}
-		
-		keyPress("TAB");
-		
+
 		return false;
 	}
 }
