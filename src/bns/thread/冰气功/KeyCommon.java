@@ -17,7 +17,7 @@ class KeyCommon {
 			if (th.isColorOK("雪冰掌")) {
 				th.keyPress("Z");
 				th.mousePress(BnsConst.MOUSE_RIGHT, 300);
-				th.mousePress(BnsConst.MOUSE_RIGHT, 300);
+				th.keyPress("F");
 				long nowTime = System.currentTimeMillis();
 				while (System.currentTimeMillis() - nowTime <= 9500 && !th.isPause) {
 					th.keyPress("2");

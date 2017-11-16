@@ -20,13 +20,18 @@ public class KeyF1 extends KeyThreadAbstract {
 
 		if (isColorOK("天龙炮")) {
 			keyPress("G", BnsConst.RELEASE_DELAY, 4000, false);
+		} else {
+			//切火姿态
+			keyPress("Q");
+			
+			keyPress("X", BnsConst.RELEASE_DELAY, 4000, false);
+			
+			//执行火系一套	
+			KeyCommon.doFire(this);
+			//切冰姿态
+			mousePress(BnsConst.MOUSE_RIGHT);
 		}
 		
-		//执行火系一套	
-		KeyCommon.doFire(this);
-		
-		//切冰姿态
-		mousePress(BnsConst.MOUSE_RIGHT);
 		
 		//执行雪冰掌
 		KeyCommon.doKeyZ(this);
