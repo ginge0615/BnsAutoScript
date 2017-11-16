@@ -13,25 +13,28 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 	protected boolean runSkill() throws InterruptedException, Exception {
 		log.debug("火气功");
 		
-//		long nowTime = 0;
-//		
-//		nowTime = System.currentTimeMillis();
-		
-		if (isColorOkCached("MOUSE_RIGHT")) {
-			mousePress(BnsConst.MOUSE_RIGHT);
-		}
-		
-		if (isColorOkCached("MOUSE_LEFT")) {
-			mousePress(BnsConst.MOUSE_LEFT);
-		}
-		
 		if (isColorOkCached("双龙破") || isColorOkCached("炎龙破")) {
+			mousePress(BnsConst.MOUSE_RIGHT);
+			mousePress(BnsConst.MOUSE_LEFT);
 			keyPress("F");
-		} else if (isColorOkCached("爆裂炎炮") || isColorOkCached("炎龙啸")) {
+		} else {
+			mousePress(BnsConst.MOUSE_RIGHT);
+			mousePress(BnsConst.MOUSE_LEFT);
 			keyPress("2");
+			
+			if (fm.getCase() != 3) {
+				mousePress(BnsConst.MOUSE_RIGHT);
+				mousePress(BnsConst.MOUSE_LEFT);
+				keyPress("2");
+				mousePress(BnsConst.MOUSE_RIGHT);
+				mousePress(BnsConst.MOUSE_LEFT);
+				keyPress("1");
+				
+				if (isColorOkCached("火莲掌即时")) {
+					keyPress("X");
+				}				
+			}
 		}
-		
-		
 		
 		return true;
 	}
