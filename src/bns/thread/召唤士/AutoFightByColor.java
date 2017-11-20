@@ -31,9 +31,15 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 			startFightTime = System.currentTimeMillis();
 			
 			if (fm.getCase() != 1) {
-				if (isColorOK("投掷花粉")) keyPress("3", 600);//花粉
-				if (isColorOkCached("常春藤")) keyPress("1", 600);//常春藤
-				if (fm.getCase() != 3 && isColorOkCached("荆棘藤")) keyPress("2");//荆棘藤
+				if (isColorOK("投掷花粉"))  keyPress("3", 600);//花粉 
+				if (isColorOkCached("常春藤")) {
+					keyPress("1", 600);//常春藤
+					clearCachedColor("常春藤");
+				}
+				if (fm.getCase() != 3 && isColorOkCached("荆棘藤")) {
+					keyPress("2");//荆棘藤
+					clearCachedColor("荆棘藤");
+				}
 			}
 		}
 		 
@@ -47,33 +53,40 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 		//PVP:自动擒拿，自动花粉，手动扣猫，自动荆棘藤
 		if (fm.getCase() != 3 && isColorOkCached("荆棘藤")) {
 			keyPress("2");
+			clearCachedColor("荆棘藤");
 		} 
 		
 		else if (isColorOkCached("投掷花粉") && !isColorOkCached("大向日葵")) {
 			keyPress("3");
+			clearCachedColor("投掷花粉");
+			clearCachedColor("大向日葵");
 		}
 		
 		else if (isColorOkCached("常春藤") && System.currentTimeMillis() - preTimeQianniuhua >= 9500) {
 			preTimeChangchunteng = System.currentTimeMillis();
 			keyPress("1");
+			clearCachedColor("常春藤");
 		}
 		
 		else if (isColorOkCached("板栗球") && System.currentTimeMillis() - preTimeQianniuhua >= 5500) {
 			keyPress("F");
+			clearCachedColor("板栗球");
 		}
 		
 		else if (isColorOkCached("牵牛花") && System.currentTimeMillis() - preTimeChangchunteng >= 14500) {
 			preTimeQianniuhua = System.currentTimeMillis();
 			keyPress("F");
+			clearCachedColor("牵牛花");
 		}
 		
 		//========================= 猫控制 ============================
 		if (fm.getCase() != 1 ) {
-			if (isColorOkCached("擒拿")) {
+			if (isColorOK("擒拿")) {
 				preTabTime = System.currentTimeMillis();
 				keyPress("TAB");
 			}  else if (fm.getCase() != 4 && isAutoQ && (System.currentTimeMillis() - preTabTime >= 4000) && isColorOkCached("畏缩")) {
 				keyPress("Q");
+				clearCachedColor("畏缩");
 			}
 		}
 		
