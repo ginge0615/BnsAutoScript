@@ -680,13 +680,11 @@ public class BnsFrame extends JFrame {
 	public static void main(String[] args) {
 		PropertyConfigurator.configure(BnsConst.ROOT_PATH.concat("resource").concat(File.separator).concat("log4j.properties"));
 		
-		String os = System.getProperty("os.arch");
-		if (os.indexOf("64") >= 0) {
+		try {
 			loadDll("JIntellitype64.dll");
-		} else {
+		} catch (Exception e) {
 			loadDll("JIntellitype.dll");
 		}
-		
 	}
 
 }

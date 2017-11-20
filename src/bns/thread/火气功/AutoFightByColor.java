@@ -23,7 +23,14 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 		} else if (cntFire >= 5) {
 			mousePress(BnsConst.MOUSE_RIGHT, 500);
 			mousePress(BnsConst.MOUSE_LEFT, 500);	
-			keyPress("1");		
+			keyPress("1");	
+			
+			if (isColorOkCached("火莲掌")) {
+				doSleep(800);
+				keyPress("X");
+				doSleep(800);
+				keyPress("X");
+			}
 			cntFire = 0;	
 		} else {
 			mousePress(BnsConst.MOUSE_RIGHT);
