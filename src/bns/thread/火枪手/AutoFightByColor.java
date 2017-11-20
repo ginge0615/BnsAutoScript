@@ -19,17 +19,22 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 				isFirstRun = false;
 				if (isColorOK("C")) keyPress("C");//流星坠
 			} else {
-				if (isColorOkCached("C")) keyPress("C");//流星坠
+				if (isColorOkCached("C")) {
+					keyPress("C");//流星坠
+					this.clearCachedColor("C");
+				}
 			}
 			
 			if (isColorOkCached("V")) {
 				keyPress("V", 150);//斩杀
+				this.clearCachedColor("V");
 			}
 			
 		}
 		
 		if (isColorOkCached("F")) {
 			keyPress("F");
+			this.clearCachedColor("F");
 		} else {
 			//爆炎弹
 			mousePress(BnsConst.MOUSE_RIGHT);
@@ -37,18 +42,21 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 		
 		if (isColorOkCached("3")) {
 			keyPress("3");//弱点射击
+			this.clearCachedColor("3");
 		} else
 		if (isColorOkCached("4")) {
 			for (int i = 0; i < 3; i++) {
 				keyPress("4");//火力时刻
 				keyPress("F");
 			}
+			this.clearCachedColor("4");
 		}
 		
 		//自动回内(2内以下)
 		if (System.currentTimeMillis() - preLBTime >= 1000 && isColorOkCached("无内力")) {
 			preLBTime = System.currentTimeMillis();
 			mousePress(BnsConst.MOUSE_LEFT);
+			this.clearCachedColor("无内力");
 		}
 		
 		return true;

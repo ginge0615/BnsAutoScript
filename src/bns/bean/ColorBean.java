@@ -12,6 +12,8 @@ public class ColorBean {
 	private int green;
 	
 	private int blue;
+	
+	private boolean isOK = false;
 
 	public int getX() {
 		return x;
@@ -59,5 +61,13 @@ public class ColorBean {
 
 	public void setExceptThisColor(boolean exceptThisColor) {
 		this.exceptThisColor = exceptThisColor;
+	}
+
+	public boolean isOK() {
+		return isOK;
+	}
+
+	public void setOK(boolean isOK) {
+		this.isOK = isOK;
 	}
 }
