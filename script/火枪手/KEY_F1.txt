@@ -1,2 +1,3 @@
 ﻿#组合1
 #KEY=F1
+KEY TAB
