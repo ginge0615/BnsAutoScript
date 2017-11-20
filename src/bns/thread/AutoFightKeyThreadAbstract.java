@@ -49,8 +49,4 @@ public abstract class AutoFightKeyThreadAbstract extends KeyThreadAbstract {
 	protected boolean isColorOkCached(String key) {
 		return thPix.isColorOK(key);
 	}
-	
-	protected void clearCachedColor(String key) {
-		thPix.clearColor(key);
-	}
 }
