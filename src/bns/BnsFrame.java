@@ -23,20 +23,24 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JSpinner;
 import javax.swing.JTextField;
+import javax.swing.SpinnerNumberModel;
 import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
 import org.apache.log4j.PropertyConfigurator;
 import org.jnativehook.GlobalScreen;
 import org.jnativehook.NativeHookException;
 
+import com.melloware.jintellitype.JIntellitype;
+import com.melloware.jintellitype.JIntellitypeException;
+
 import bns.properties.BnsPropertiesColor;
 import bns.properties.BnsPropertiesSave;
 import bns.test.BnsTest;
-
-import com.melloware.jintellitype.JIntellitype;
-import com.melloware.jintellitype.JIntellitypeException;
 
 /**
  * 主界面
@@ -74,6 +78,8 @@ public class BnsFrame extends JFrame {
 	private JTextField jTxtPrice = null; //单价
 	private JTextField jTxtNum = null;   //数量
 	private JTextField jTxtPersonNum = null;// 队伍人数
+	private JSpinner jSpinnerNum = null;
+	private JSpinner jSpinnerPersionNum = null;
 	
 	/** 职业选择下拉框*/
 	private JComboBox<String> cmbCareer = null;
@@ -161,11 +167,11 @@ public class BnsFrame extends JFrame {
 					if (mousePressedX >= 130 && mousePressedY <= 25	) {
 						if (EXTEND_DOWN.equals(jLabelExtend.getText())) {
 							jLabelExtend.setText(EXTEND_UP);
-							bf.setSize(250, 90);
+							bf.setSize(270, 90);
 							
 							jTxtPrice.setText("");
-							jTxtPersonNum.setText("6");
-							jTxtNum.setText("1");
+							jSpinnerPersionNum.setValue(new Integer("6"));
+							jSpinnerNum.setValue(new Integer("1"));
 							jLabelMin.setText("");
 							jLabelMax.setText("");
 							
@@ -187,11 +193,11 @@ public class BnsFrame extends JFrame {
         	
             @Override  
             public void mouseDragged(MouseEvent e) {  
-//                int xOnScreen = e.getXOnScreen();  
-//                int yOnScreen = e.getYOnScreen();
-//                int xx = xOnScreen - mousePressedX;  
-//                int yy = yOnScreen - mousePressedY;
-//                BnsFrame.this.setLocation(xx, yy);
+                int xOnScreen = e.getXOnScreen();  
+                int yOnScreen = e.getYOnScreen();
+                int xx = xOnScreen - mousePressedX;  
+                int yy = yOnScreen - mousePressedY;
+                BnsFrame.this.setLocation(xx, yy);
             }
         });
 	}
@@ -201,10 +207,10 @@ public class BnsFrame extends JFrame {
 	 */
 	private void exit() {
 		//保存画面坐标
-//		Point pt = BnsFrame.this.getLocation();
-//		propSave.setProperty("LOCATION_X", (int)pt.getX());
-//        propSave.setProperty("LOCATION_Y", (int)pt.getY());
-//        propSave.saveProperties();
+		Point pt = BnsFrame.this.getLocation();
+		propSave.setProperty("LOCATION_X", (int)pt.getX());
+        propSave.setProperty("LOCATION_Y", (int)pt.getY());
+        propSave.saveProperties();
         
 		SystemTray.getSystemTray().remove(trayIcon);
 		JIntellitype.getInstance().cleanUp();
@@ -312,8 +318,8 @@ public class BnsFrame extends JFrame {
 	private JTextField getPriceTextField() {
 		if (jTxtPrice == null) {
 			jTxtPrice = new JTextField();
-			jTxtPrice.setPreferredSize(new Dimension(60, 25));
-			jTxtPrice.setSize(new Dimension(60, 25));
+			jTxtPrice.setPreferredSize(new Dimension(60, 30));
+			jTxtPrice.setSize(new Dimension(60, 30));
 			jTxtPrice.setLocation(new Point(40, 30));
 			jTxtPrice.setFont(new Font("SimHei", Font.PLAIN, 15));
 			jTxtPrice.setHorizontalAlignment(SwingConstants.CENTER);
@@ -349,11 +355,35 @@ public class BnsFrame extends JFrame {
 		return jTxtNum;
 	}
 	
+	private JSpinner getNumSpinner() {
+		if (jSpinnerNum == null) {
+			SpinnerNumberModel model = new SpinnerNumberModel(1, 1, 99, 1); 			
+			jSpinnerNum = new JSpinner(model);
+			
+			jSpinnerNum.setPreferredSize(new Dimension(40, 30));
+			jSpinnerNum.setSize(new Dimension(40, 30));
+			jSpinnerNum.setLocation(new Point(150, 30));
+			jSpinnerNum.setFont(new Font("SimHei", Font.PLAIN, 15));
+			jSpinnerNum.setEditor(getNumTextField());
+			
+			jSpinnerNum.addChangeListener(new ChangeListener() {
+				
+				@Override
+				public void stateChanged(ChangeEvent e) {
+					jTxtNum.setText(String.valueOf(jSpinnerNum.getValue()));
+					
+					calculate();
+				}
+			});
+		}
+		return jSpinnerNum;
+	}
+	
 	private JLabel getPersonNumLabel() {
 		JLabel jbl = new JLabel();
 		jbl.setPreferredSize(new Dimension(40, 25));
 		jbl.setSize(new Dimension(40, 25));
-		jbl.setLocation(new Point(175, 30));
+		jbl.setLocation(new Point(190, 30));
 		jbl.setFont(new Font("SimHei", Font.PLAIN, 15));
 		jbl.setHorizontalAlignment(SwingConstants.CENTER);
 		jbl.setText("人数");
@@ -361,6 +391,7 @@ public class BnsFrame extends JFrame {
 	}
 	
 	private JTextField getPersonNumTextField() {
+
 		if (jTxtPersonNum == null) {
 			jTxtPersonNum = new JTextField();
 			jTxtPersonNum.setPreferredSize(new Dimension(25, 25));
@@ -372,6 +403,30 @@ public class BnsFrame extends JFrame {
 			jTxtPersonNum.addFocusListener(new MyFocusListener(jTxtPersonNum, 6));
 		}
 		return jTxtPersonNum;
+	}
+	
+	private JSpinner getPersonNumSpinner() {
+		if (jSpinnerPersionNum == null) {
+			SpinnerNumberModel model = new SpinnerNumberModel(6, 1, 6, 1); 			
+			jSpinnerPersionNum = new JSpinner(model);
+			
+			jSpinnerPersionNum.setPreferredSize(new Dimension(30, 30));
+			jSpinnerPersionNum.setSize(new Dimension(30, 30));
+			jSpinnerPersionNum.setLocation(new Point(230, 30));
+			jSpinnerPersionNum.setFont(new Font("SimHei", Font.PLAIN, 15));
+			jSpinnerPersionNum.setEditor(getPersonNumTextField());
+			
+			jSpinnerPersionNum.addChangeListener(new ChangeListener() {
+				
+				@Override
+				public void stateChanged(ChangeEvent e) {
+					jTxtPersonNum.setText(String.valueOf(jSpinnerPersionNum.getValue()));
+					calculate();
+					
+				}
+			});
+		}
+		return jSpinnerPersionNum;
 	}
 	
 	private JLabel getMinLabel() {
@@ -456,9 +511,11 @@ public class BnsFrame extends JFrame {
 		panel.add(getPaimaiLabel(), null);
 		panel.add(getPriceTextField(), null);
 		panel.add(getNumLabel(), null);
-		panel.add(getNumTextField(), null);
+//		panel.add(getNumTextField(), null);
+		panel.add(getNumSpinner(),null);
 		panel.add(getPersonNumLabel(), null);
-		panel.add(getPersonNumTextField(), null);
+//		panel.add(getPersonNumTextField(), null);
+		panel.add(getPersonNumSpinner(), null);
 		
 		panel.add(getMinLabel(), null);
 		panel.add(getJingPaiMinLabel(), null);
@@ -536,7 +593,7 @@ public class BnsFrame extends JFrame {
 	}
 	
 	private void initSize() {
-		this.setSize(170, 25);
+		this.setSize(175, 25);
 	}
 	
 	/**
@@ -680,11 +737,13 @@ public class BnsFrame extends JFrame {
 	public static void main(String[] args) {
 		PropertyConfigurator.configure(BnsConst.ROOT_PATH.concat("resource").concat(File.separator).concat("log4j.properties"));
 		
-		try {
+		String os = System.getProperty("os.arch");
+		if (os.indexOf("64") >= 0) {
 			loadDll("JIntellitype64.dll");
-		} catch (Exception e) {
+		} else {
 			loadDll("JIntellitype.dll");
 		}
+		
 	}
 
 }

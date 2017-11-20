@@ -15,28 +15,30 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 	protected boolean runSkill() throws InterruptedException, Exception {
 		log.debug("火气功");
 		
-		if (isColorOkCached("双龙破") || isColorOkCached("炎龙破")) {
+		if (isColorOkCached("双龙破")) {
 			mousePress(BnsConst.MOUSE_RIGHT, 500);
-			mousePress(BnsConst.MOUSE_LEFT, 500);			
+			mousePress(BnsConst.MOUSE_LEFT, 500);
+			cntFire++;
 			keyPress("F");
-			cntFire = 5;
+			this.clearCachedColor("双龙破");
+			
+		} else if (isColorOkCached("炎龙破")) {
+			mousePress(BnsConst.MOUSE_RIGHT, 500);
+			mousePress(BnsConst.MOUSE_LEFT, 500);
+			cntFire++;
+			keyPress("F");
+			this.clearCachedColor("炎龙破");
+			
 		} else if (cntFire >= 5) {
 			mousePress(BnsConst.MOUSE_RIGHT, 500);
-			mousePress(BnsConst.MOUSE_LEFT, 500);	
-			keyPress("1");	
-			
-			if (isColorOkCached("火莲掌")) {
-				doSleep(800);
-				keyPress("X");
-				doSleep(800);
-				keyPress("X");
-			}
-			cntFire = 0;	
+			mousePress(BnsConst.MOUSE_LEFT, 500);
+			keyPress("1");		
+			cntFire = 0;
 		} else {
 			mousePress(BnsConst.MOUSE_RIGHT);
 			mousePress(BnsConst.MOUSE_LEFT);	
 			keyPress("2");
-			cntFire++;
+			cntFire+=2;
 		}
 		
 		return true;
