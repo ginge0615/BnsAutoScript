@@ -1436,3 +1436,1992 @@
 11/20/2017 17:00:17 552 DEBUG - [BnsFrame$2.mousePressed:165] X=247  Y=29 
 11/20/2017 17:00:18 333 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1613,29),button=1,modifiers=Button1,clickCount=28 
 11/20/2017 17:00:20 173 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1587,17),button=2,modifiers=Button2,clickCount=1 
+11/21/2017 07:49:52 041 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #1 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #KEY=1 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #NOBREAK 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] KEY 1 100 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] }60 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] ﻿#花粉 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #KEY=3 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] KEY 3 200 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] }3 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] ﻿#蒲公英 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #KEY=4 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] KEY 4 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大榔头 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #KEY=C 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] KEY C 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #F 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] KEY F 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大马蜂 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F1 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] KEY G 4000 REAL 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] ﻿#双击倒 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F2 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] KEY V 800 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] ﻿#群体蒲公英 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] #KEY=DELETE 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 07:49:52 057 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[300] 4 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #KEY=PAGE_UP 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #KEY=R 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #TAB 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #KEY=TAB 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY TAB 150 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] }5 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] ﻿#下段斩 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #KEY=V 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] ﻿#友情 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #KEY=X 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #鼓励 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #KEY=Z 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #KEY=CTRL+F12 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #LOOP 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] #NOAGENT 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_RIGHT 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] MOVE 840 259 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_LEFT 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] MOVE 884 439 
+11/21/2017 07:49:52 073 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 07:49:54 038 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1521,2),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 07:49:54 038 DEBUG - [BnsFrame$2.mousePressed:165] X=156  Y=4 
+11/21/2017 07:49:56 145 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1615,54),button=1,modifiers=Button1,clickCount=2 
+11/21/2017 07:49:56 895 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1615,54),button=1,modifiers=Button1,clickCount=3 
+11/21/2017 07:49:57 956 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1615,54),button=1,modifiers=Button1,clickCount=4 
+11/21/2017 07:49:59 486 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1615,54),button=1,modifiers=Button1,clickCount=5 
+11/21/2017 07:50:00 657 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1446,41),button=1,modifiers=Button1,clickCount=6 
+11/21/2017 07:50:01 781 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 07:50:01 781 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 07:50:02 952 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 07:50:02 952 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 07:50:03 078 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 07:50:03 093 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 07:50:05 776 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1567,67),button=1,modifiers=Button1,clickCount=7 
+11/21/2017 07:50:05 776 DEBUG - [BnsFrame$2.mousePressed:165] X=201  Y=69 
+11/21/2017 07:50:12 907 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1546,36),button=1,modifiers=Button1,clickCount=8 
+11/21/2017 07:50:14 109 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1547,57),button=1,modifiers=Button1,clickCount=9 
+11/21/2017 07:50:19 258 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1443,47),button=1,modifiers=Button1,clickCount=10 
+11/21/2017 07:50:20 772 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3,keyText=2,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=50 
+11/21/2017 07:50:20 772 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3 
+11/21/2017 07:50:21 303 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 07:50:21 303 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 07:50:23 175 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1451,82),button=1,modifiers=Button1,clickCount=11 
+11/21/2017 07:50:23 175 DEBUG - [BnsFrame$2.mousePressed:165] X=85  Y=84 
+11/21/2017 07:50:27 388 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 07:50:27 388 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 07:50:27 686 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=5,keyText=4,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=52 
+11/21/2017 07:50:27 686 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=5 
+11/21/2017 07:50:29 932 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1622,34),button=1,modifiers=Button1,clickCount=12 
+11/21/2017 07:50:30 386 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1622,34),button=1,modifiers=Button1,clickCount=13 
+11/21/2017 07:50:30 620 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1622,34),button=1,modifiers=Button1,clickCount=14 
+11/21/2017 07:50:30 885 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1622,34),button=1,modifiers=Button1,clickCount=15 
+11/21/2017 07:50:35 939 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1444,41),button=1,modifiers=Button1,clickCount=16 
+11/21/2017 07:50:47 859 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1523,9),button=1,modifiers=Button1,clickCount=17 
+11/21/2017 07:50:47 874 DEBUG - [BnsFrame$2.mousePressed:165] X=157  Y=11 
+11/21/2017 07:50:48 468 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1523,9),button=1,modifiers=Button1,clickCount=18 
+11/21/2017 07:50:48 468 DEBUG - [BnsFrame$2.mousePressed:165] X=157  Y=11 
+11/21/2017 07:50:53 226 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1544,9),button=2,modifiers=Button2,clickCount=1 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #1 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #KEY=1 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #NOBREAK 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] KEY 1 100 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] }60 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] ﻿#花粉 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #KEY=3 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] KEY 3 200 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] }3 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] ﻿#蒲公英 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #KEY=4 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] KEY 4 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大榔头 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #KEY=C 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] KEY C 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #F 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] KEY F 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 405 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大马蜂 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F1 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY G 4000 REAL 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] ﻿#双击倒 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F2 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY V 800 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] ﻿#群体蒲公英 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #KEY=DELETE 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[300] 4 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #KEY=PAGE_UP 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #KEY=R 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #TAB 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #KEY=TAB 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY TAB 150 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] }5 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] ﻿#下段斩 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #KEY=V 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] ﻿#友情 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #KEY=X 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #鼓励 
+11/21/2017 08:00:50 421 INFO  - [KeyThreadScript.loadSkill:97] #KEY=Z 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] #KEY=CTRL+F12 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] #LOOP 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] #NOAGENT 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_RIGHT 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] MOVE 840 259 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_LEFT 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] MOVE 884 439 
+11/21/2017 08:00:50 436 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:00:51 872 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1525,10),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 08:00:51 872 DEBUG - [BnsFrame$2.mousePressed:167] X=159  Y=12 
+11/21/2017 08:00:52 543 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1437,45),button=1,modifiers=Button1,clickCount=2 
+11/21/2017 08:00:53 542 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 08:00:53 557 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 08:00:54 151 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3,keyText=2,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=50 
+11/21/2017 08:00:54 167 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3 
+11/21/2017 08:00:55 196 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1418,78),button=1,modifiers=Button1,clickCount=3 
+11/21/2017 08:00:55 196 DEBUG - [BnsFrame$2.mousePressed:167] X=52  Y=80 
+11/21/2017 08:00:58 957 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3,keyText=2,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=50 
+11/21/2017 08:00:58 957 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3 
+11/21/2017 08:01:02 031 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:01:02 031 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:01:02 578 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:01:02 578 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:01:03 717 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1546,7),button=2,modifiers=Button2,clickCount=1 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #1 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #KEY=1 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #NOBREAK 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] KEY 1 100 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] }60 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] ﻿#花粉 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #KEY=3 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] KEY 3 200 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] }3 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] ﻿#蒲公英 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #KEY=4 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] KEY 4 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大榔头 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #KEY=C 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] KEY C 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #F 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] KEY F 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大马蜂 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F1 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] KEY G 4000 REAL 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] ﻿#双击倒 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F2 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] KEY V 800 
+11/21/2017 08:01:25 231 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] ﻿#群体蒲公英 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #KEY=DELETE 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[300] 4 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #KEY=PAGE_UP 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #KEY=R 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #TAB 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #KEY=TAB 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY TAB 150 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] }5 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] ﻿#下段斩 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #KEY=V 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] ﻿#友情 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #KEY=X 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #鼓励 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #KEY=Z 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #KEY=CTRL+F12 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #LOOP 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] #NOAGENT 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_RIGHT 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] MOVE 840 259 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_LEFT 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] MOVE 884 439 
+11/21/2017 08:01:25 247 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:01:25 949 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1522,9),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 08:01:25 949 DEBUG - [BnsFrame$2.mousePressed:167] X=156  Y=11 
+11/21/2017 08:01:26 870 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1435,46),button=1,modifiers=Button1,clickCount=2 
+11/21/2017 08:01:27 760 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 08:01:27 760 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 08:01:28 681 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3,keyText=2,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=50 
+11/21/2017 08:01:28 681 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3 
+11/21/2017 08:01:28 993 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3,keyText=2,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=50 
+11/21/2017 08:01:29 009 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3 
+11/21/2017 08:01:31 038 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:01:31 038 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:01:31 538 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:01:31 538 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:01:33 535 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 08:01:33 535 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 08:01:33 692 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 08:01:33 692 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 08:01:40 446 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1548,47),button=1,modifiers=Button1,clickCount=3 
+11/21/2017 08:01:41 368 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1548,29),button=1,modifiers=Button1,clickCount=4 
+11/21/2017 08:01:43 209 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1613,35),button=1,modifiers=Button1,clickCount=5 
+11/21/2017 08:01:44 380 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1614,47),button=1,modifiers=Button1,clickCount=6 
+11/21/2017 08:01:44 973 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1614,47),button=1,modifiers=Button1,clickCount=7 
+11/21/2017 08:01:46 814 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1448,46),button=1,modifiers=Button1,clickCount=8 
+11/21/2017 08:01:48 360 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:01:48 360 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:01:48 517 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:01:48 517 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:01:48 673 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:01:48 673 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:01:52 151 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3,keyText=2,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=50 
+11/21/2017 08:01:52 151 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3 
+11/21/2017 08:01:52 262 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 08:01:52 262 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 08:02:00 436 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:02:00 436 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:02:01 045 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:02:01 045 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:02:06 178 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1528,44),button=1,modifiers=Button1,clickCount=9 
+11/21/2017 08:02:08 519 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=5,keyText=4,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=52 
+11/21/2017 08:02:08 519 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=5 
+11/21/2017 08:02:08 801 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1501,73),button=1,modifiers=Button1,clickCount=10 
+11/21/2017 08:02:08 801 DEBUG - [BnsFrame$2.mousePressed:167] X=135  Y=76 
+11/21/2017 08:02:10 173 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1466,70),button=2,modifiers=Button2,clickCount=1 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #1 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #KEY=1 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #NOBREAK 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] KEY 1 100 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] }60 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] ﻿#花粉 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #KEY=3 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] KEY 3 200 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] }3 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] ﻿#蒲公英 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #KEY=4 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] KEY 4 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大榔头 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #KEY=C 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] KEY C 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #F 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] KEY F 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大马蜂 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F1 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] KEY G 4000 REAL 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 515 INFO  - [KeyThreadScript.loadSkill:97] ﻿#双击倒 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F2 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY V 800 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] ﻿#群体蒲公英 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #KEY=DELETE 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[300] 4 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #KEY=PAGE_UP 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #KEY=R 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #TAB 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #KEY=TAB 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY TAB 150 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] }5 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] ﻿#下段斩 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #KEY=V 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] ﻿#友情 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #KEY=X 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #鼓励 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #KEY=Z 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:04:10 530 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:04:10 546 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:04:10 546 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:04:10 546 INFO  - [KeyThreadScript.loadSkill:97] #KEY=CTRL+F12 
+11/21/2017 08:04:10 546 INFO  - [KeyThreadScript.loadSkill:97] #LOOP 
+11/21/2017 08:04:10 546 INFO  - [KeyThreadScript.loadSkill:97] #NOAGENT 
+11/21/2017 08:04:10 546 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_RIGHT 
+11/21/2017 08:04:10 546 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:04:10 546 INFO  - [KeyThreadScript.loadSkill:97] MOVE 840 259 
+11/21/2017 08:04:10 546 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:04:10 546 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_LEFT 
+11/21/2017 08:04:10 546 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:04:10 546 INFO  - [KeyThreadScript.loadSkill:97] MOVE 884 439 
+11/21/2017 08:04:10 546 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:04:12 465 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1522,6),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 08:04:12 465 DEBUG - [BnsFrame$2.mousePressed:167] X=156  Y=9 
+11/21/2017 08:04:13 105 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1436,42),button=1,modifiers=Button1,clickCount=2 
+11/21/2017 08:04:13 776 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 08:04:13 776 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 08:04:16 398 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 08:04:16 398 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 08:04:16 571 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 08:04:16 571 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 08:04:20 003 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:04:20 003 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:04:20 191 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:04:20 191 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:04:20 378 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:04:20 378 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:04:22 094 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3,keyText=2,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=50 
+11/21/2017 08:04:22 094 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3 
+11/21/2017 08:04:22 298 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 08:04:22 298 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 08:04:22 454 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 08:04:22 454 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 08:04:24 029 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:04:24 029 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:04:43 983 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1550,34),button=1,modifiers=Button1,clickCount=3 
+11/21/2017 08:04:46 714 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1620,50),button=1,modifiers=Button1,clickCount=4 
+11/21/2017 08:04:48 649 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1564,13),button=1,modifiers=Button1,clickCount=5 
+11/21/2017 08:04:48 649 DEBUG - [BnsFrame$2.mousePressed:167] X=198  Y=15 
+11/21/2017 08:04:49 711 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1520,18),button=1,modifiers=Button1,clickCount=6 
+11/21/2017 08:04:49 711 DEBUG - [BnsFrame$2.mousePressed:167] X=154  Y=20 
+11/21/2017 08:04:56 467 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1584,13),button=2,modifiers=Button2,clickCount=1 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] #1 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] #KEY=1 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] #NOBREAK 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] KEY 1 100 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] }60 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] ﻿#花粉 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] #KEY=3 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] KEY 3 200 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] }3 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] ﻿#蒲公英 
+11/21/2017 08:09:12 638 INFO  - [KeyThreadScript.loadSkill:97] #KEY=4 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY 4 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大榔头 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #KEY=C 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY C 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #F 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY F 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大马蜂 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F1 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY G 4000 REAL 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] ﻿#双击倒 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F2 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY V 800 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] ﻿#群体蒲公英 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #KEY=DELETE 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[300] 4 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #KEY=PAGE_UP 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #KEY=R 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #TAB 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #KEY=TAB 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY TAB 150 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] }5 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] ﻿#下段斩 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #KEY=V 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] ﻿#友情 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #KEY=X 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:09:12 654 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] #鼓励 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] #KEY=Z 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] #KEY=CTRL+F12 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] #LOOP 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] #NOAGENT 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_RIGHT 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] MOVE 840 259 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_LEFT 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] MOVE 884 439 
+11/21/2017 08:09:12 670 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:09:14 027 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1519,9),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 08:09:14 042 DEBUG - [BnsFrame$2.mousePressed:165] X=153  Y=11 
+11/21/2017 08:09:16 274 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1532,7),button=1,modifiers=Button1,clickCount=2 
+11/21/2017 08:09:16 290 DEBUG - [BnsFrame$2.mousePressed:165] X=161  Y=8 
+11/21/2017 08:09:22 390 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1509,16),button=1,modifiers=Button1,clickCount=3 
+11/21/2017 08:09:22 390 DEBUG - [BnsFrame$2.mousePressed:165] X=152  Y=16 
+11/21/2017 08:09:25 480 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1427,43),button=1,modifiers=Button1,clickCount=4 
+11/21/2017 08:09:26 558 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 08:09:26 558 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 08:09:27 214 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 08:09:27 214 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 08:09:27 385 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 08:09:27 385 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 08:09:28 680 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1536,36),button=1,modifiers=Button1,clickCount=5 
+11/21/2017 08:09:29 836 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1536,50),button=1,modifiers=Button1,clickCount=6 
+11/21/2017 08:09:30 944 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1606,37),button=1,modifiers=Button1,clickCount=7 
+11/21/2017 08:09:32 053 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1605,49),button=1,modifiers=Button1,clickCount=8 
+11/21/2017 08:09:32 553 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1605,49),button=1,modifiers=Button1,clickCount=9 
+11/21/2017 08:09:34 675 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1605,38),button=1,modifiers=Button1,clickCount=10 
+11/21/2017 08:09:34 910 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1605,38),button=1,modifiers=Button1,clickCount=11 
+11/21/2017 08:09:35 144 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1605,38),button=1,modifiers=Button1,clickCount=12 
+11/21/2017 08:09:35 534 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1605,38),button=1,modifiers=Button1,clickCount=13 
+11/21/2017 08:09:42 600 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3667,keyText=Delete,keyChar=Undefined,keyLocation=KEY_LOCATION_NUMPAD,rawCode=46 
+11/21/2017 08:09:42 600 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3667 
+11/21/2017 08:09:42 600 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=308 
+11/21/2017 08:09:42 600 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 08:09:42 600 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 08:09:42 600 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 08:09:42 695 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 08:09:42 695 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 08:09:42 695 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 08:09:42 789 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 08:09:42 789 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 08:09:42 789 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 08:09:42 976 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 08:09:42 976 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 08:09:42 976 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 08:09:43 163 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 08:09:43 163 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 08:09:43 163 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 08:09:43 288 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 08:09:43 288 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 08:09:43 491 DEBUG - [KeyThreadAbstract.run:29] doWait 
+11/21/2017 08:09:43 569 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3,keyText=2,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=50 
+11/21/2017 08:09:43 569 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3 
+11/21/2017 08:09:45 721 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1603,66),button=1,modifiers=Button1,clickCount=14 
+11/21/2017 08:09:45 721 DEBUG - [BnsFrame$2.mousePressed:165] X=246  Y=66 
+11/21/2017 08:09:49 544 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:09:49 544 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:09:50 138 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:09:50 138 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:09:51 012 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:09:51 012 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:09:51 200 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:09:51 200 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:09:51 372 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:09:51 372 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:09:51 699 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3667,keyText=Delete,keyChar=Undefined,keyLocation=KEY_LOCATION_NUMPAD,rawCode=46 
+11/21/2017 08:09:51 699 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3667 
+11/21/2017 08:09:51 699 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=308 
+11/21/2017 08:09:51 699 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 08:09:51 699 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 08:09:51 699 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 08:09:51 793 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 08:09:51 793 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 08:09:51 793 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 08:09:51 886 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 08:09:51 886 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 08:09:51 886 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 08:09:52 074 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 08:09:52 074 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 08:09:52 074 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 08:09:52 262 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 08:09:52 262 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 08:09:52 262 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 08:09:52 589 DEBUG - [KeyThreadAbstract.run:29] doWait 
+11/21/2017 08:09:56 489 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3663,keyText=End,keyChar=Undefined,keyLocation=KEY_LOCATION_NUMPAD,rawCode=35 
+11/21/2017 08:09:56 489 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3663 
+11/21/2017 08:09:56 489 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=1 
+11/21/2017 08:09:58 082 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:09:58 082 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:09:58 285 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:09:58 285 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:09:58 441 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:09:58 441 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:09:58 613 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:09:58 613 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:09:59 065 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3667,keyText=Delete,keyChar=Undefined,keyLocation=KEY_LOCATION_NUMPAD,rawCode=46 
+11/21/2017 08:09:59 065 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3667 
+11/21/2017 08:09:59 253 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3667,keyText=Delete,keyChar=Undefined,keyLocation=KEY_LOCATION_NUMPAD,rawCode=46 
+11/21/2017 08:09:59 253 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3667 
+11/21/2017 08:09:59 457 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3667,keyText=Delete,keyChar=Undefined,keyLocation=KEY_LOCATION_NUMPAD,rawCode=46 
+11/21/2017 08:09:59 457 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3667 
+11/21/2017 08:09:59 884 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:09:59 884 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:10:00 054 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:10:00 054 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:10:00 224 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:10:00 234 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:10:00 384 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:10:00 384 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:10:00 529 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:10:00 529 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:10:00 932 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:10:00 932 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:10:01 804 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 08:10:01 804 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 08:10:02 005 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3,keyText=2,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=50 
+11/21/2017 08:10:02 005 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3 
+11/21/2017 08:10:04 183 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1578,78),button=1,modifiers=Button1,clickCount=15 
+11/21/2017 08:10:04 183 DEBUG - [BnsFrame$2.mousePressed:165] X=221  Y=77 
+11/21/2017 08:10:06 181 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:10:06 181 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:10:06 400 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:10:06 400 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:10:06 666 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:10:06 666 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:10:08 946 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1547,18),button=1,modifiers=Button1,clickCount=16 
+11/21/2017 08:10:08 946 DEBUG - [BnsFrame$2.mousePressed:165] X=190  Y=17 
+11/21/2017 08:10:12 801 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1513,9),button=2,modifiers=Button2,clickCount=1 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #1 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #KEY=1 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #NOBREAK 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] KEY 1 100 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] }60 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] ﻿#花粉 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #KEY=3 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] KEY 3 200 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] }3 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] ﻿#蒲公英 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #KEY=4 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] KEY 4 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大榔头 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #KEY=C 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] KEY C 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #F 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] KEY F 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大马蜂 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F1 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] KEY G 4000 REAL 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 723 INFO  - [KeyThreadScript.loadSkill:97] ﻿#双击倒 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F2 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY V 800 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] ﻿#群体蒲公英 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #KEY=DELETE 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[300] 4 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #KEY=PAGE_UP 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #KEY=R 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #TAB 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #KEY=TAB 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY TAB 150 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] }5 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] ﻿#下段斩 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #KEY=V 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] ﻿#友情 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #KEY=X 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #鼓励 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #KEY=Z 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #KEY=CTRL+F12 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #LOOP 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] #NOAGENT 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_RIGHT 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] MOVE 840 259 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_LEFT 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] MOVE 884 439 
+11/21/2017 08:15:36 739 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:15:38 127 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1511,10),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 08:15:38 127 DEBUG - [BnsFrame$2.mousePressed:165] X=154  Y=12 
+11/21/2017 08:15:39 142 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1513,8),button=1,modifiers=Button1,clickCount=2 
+11/21/2017 08:15:39 142 DEBUG - [BnsFrame$2.mousePressed:165] X=156  Y=10 
+11/21/2017 08:15:40 032 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1509,8),button=1,modifiers=Button1,clickCount=3 
+11/21/2017 08:15:40 048 DEBUG - [BnsFrame$2.mousePressed:165] X=152  Y=10 
+11/21/2017 08:15:40 578 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1517,9),button=1,modifiers=Button1,clickCount=4 
+11/21/2017 08:15:40 578 DEBUG - [BnsFrame$2.mousePressed:165] X=160  Y=11 
+11/21/2017 08:15:41 297 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1509,10),button=1,modifiers=Button1,clickCount=5 
+11/21/2017 08:15:41 297 DEBUG - [BnsFrame$2.mousePressed:165] X=152  Y=12 
+11/21/2017 08:15:42 451 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1510,6),button=1,modifiers=Button1,clickCount=6 
+11/21/2017 08:15:42 467 DEBUG - [BnsFrame$2.mousePressed:165] X=153  Y=8 
+11/21/2017 08:15:43 841 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1519,9),button=2,modifiers=Button2,clickCount=1 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:97] #1 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:97] #KEY=1 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:97] #NOBREAK 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:97] KEY 1 100 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:97] }60 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:97] ﻿#花粉 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:97] #KEY=3 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:51 955 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY 3 200 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] }3 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] ﻿#蒲公英 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #KEY=4 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY 4 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大榔头 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #KEY=C 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY C 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #F 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY F 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大马蜂 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F1 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY G 4000 REAL 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] ﻿#双击倒 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F2 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY V 800 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] ﻿#群体蒲公英 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #KEY=DELETE 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[300] 4 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #KEY=PAGE_UP 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #KEY=R 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #TAB 
+11/21/2017 08:15:51 970 INFO  - [KeyThreadScript.loadSkill:97] #KEY=TAB 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] KEY TAB 150 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] }5 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] ﻿#下段斩 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #KEY=V 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] ﻿#友情 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #KEY=X 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #鼓励 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #KEY=Z 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #KEY=CTRL+F12 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #LOOP 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] #NOAGENT 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_RIGHT 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] MOVE 840 259 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_LEFT 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] MOVE 884 439 
+11/21/2017 08:15:51 986 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:15:52 984 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1498,4),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 08:15:53 000 DEBUG - [BnsFrame$2.mousePressed:165] X=141  Y=6 
+11/21/2017 08:15:55 419 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1484,13),button=2,modifiers=Button2,clickCount=1 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] #1 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] #KEY=1 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] #NOBREAK 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] KEY 1 100 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] }60 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] ﻿#花粉 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] #KEY=3 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:16:04 594 INFO  - [KeyThreadScript.loadSkill:97] KEY 3 200 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] }3 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] ﻿#蒲公英 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #KEY=4 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY 4 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大榔头 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #KEY=C 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY C 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #F 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY F 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大马蜂 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F1 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY G 4000 REAL 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] ﻿#双击倒 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F2 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY V 800 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] ﻿#群体蒲公英 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #KEY=DELETE 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[300] 4 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #KEY=PAGE_UP 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #KEY=R 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #TAB 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #KEY=TAB 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] KEY TAB 150 
+11/21/2017 08:16:04 609 INFO  - [KeyThreadScript.loadSkill:97] }5 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] ﻿#下段斩 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] #KEY=V 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] ﻿#友情 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] #KEY=X 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] #鼓励 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] #KEY=Z 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] #KEY=CTRL+F12 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] #LOOP 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] #NOAGENT 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_RIGHT 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] MOVE 840 259 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_LEFT 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] MOVE 884 439 
+11/21/2017 08:16:04 625 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:16:05 311 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1512,11),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 08:16:05 311 DEBUG - [BnsFrame$2.mousePressed:165] X=160  Y=11 
+11/21/2017 08:16:06 966 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1440,43),button=1,modifiers=Button1,clickCount=2 
+11/21/2017 08:16:07 591 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 08:16:07 591 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 08:16:08 277 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 08:16:08 277 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 08:16:08 871 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 08:16:08 871 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 08:16:09 308 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1417,79),button=1,modifiers=Button1,clickCount=3 
+11/21/2017 08:16:09 308 DEBUG - [BnsFrame$2.mousePressed:165] X=65  Y=79 
+11/21/2017 08:16:10 463 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1533,60),button=1,modifiers=Button1,clickCount=4 
+11/21/2017 08:16:10 463 DEBUG - [BnsFrame$2.mousePressed:165] X=181  Y=60 
+11/21/2017 08:16:10 932 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1533,58),button=1,modifiers=Button1,clickCount=5 
+11/21/2017 08:16:12 336 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1535,36),button=1,modifiers=Button1,clickCount=6 
+11/21/2017 08:16:13 273 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1535,36),button=1,modifiers=Button1,clickCount=7 
+11/21/2017 08:16:19 373 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1546,8),button=2,modifiers=Button2,clickCount=1 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] #1 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] #KEY=1 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] #NOBREAK 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] KEY 1 100 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] }60 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] ﻿#花粉 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] #KEY=3 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] KEY 3 200 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] }3 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] ﻿#蒲公英 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] #KEY=4 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:02 541 INFO  - [KeyThreadScript.loadSkill:97] KEY 4 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大榔头 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #KEY=C 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY C 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #F 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY F 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大马蜂 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F1 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY G 4000 REAL 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] ﻿#双击倒 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F2 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY V 800 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] ﻿#群体蒲公英 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #KEY=DELETE 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[300] 4 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #KEY=PAGE_UP 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #KEY=R 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #TAB 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #KEY=TAB 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY TAB 150 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] }5 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] ﻿#下段斩 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #KEY=V 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] ﻿#友情 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #KEY=X 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:17:02 557 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] #鼓励 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] #KEY=Z 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] #KEY=CTRL+F12 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] #LOOP 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] #NOAGENT 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_RIGHT 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] MOVE 840 259 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_LEFT 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] MOVE 884 439 
+11/21/2017 08:17:02 572 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:17:03 461 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1507,13),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 08:17:03 461 DEBUG - [BnsFrame$2.mousePressed:165] X=155  Y=13 
+11/21/2017 08:17:04 648 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1529,54),button=1,modifiers=Button1,clickCount=2 
+11/21/2017 08:17:04 930 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1529,55),button=1,modifiers=Button1,clickCount=3 
+11/21/2017 08:17:05 304 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1535,37),button=1,modifiers=Button1,clickCount=4 
+11/21/2017 08:17:05 850 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1537,51),button=1,modifiers=Button1,clickCount=5 
+11/21/2017 08:17:06 678 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1544,17),button=2,modifiers=Button2,clickCount=1 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] #1 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] #KEY=1 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] #NOBREAK 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] KEY 1 100 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] }60 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] ﻿#花粉 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] #KEY=3 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] KEY 3 200 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] }3 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] ﻿#蒲公英 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] #KEY=4 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] KEY 4 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大榔头 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] #KEY=C 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:49 454 INFO  - [KeyThreadScript.loadSkill:97] KEY C 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #F 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY F 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大马蜂 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F1 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY G 4000 REAL 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] ﻿#双击倒 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F2 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY V 800 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] ﻿#群体蒲公英 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #KEY=DELETE 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[300] 4 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #KEY=PAGE_UP 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #KEY=R 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #TAB 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #KEY=TAB 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY TAB 150 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] }5 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] ﻿#下段斩 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #KEY=V 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] ﻿#友情 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #KEY=X 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #鼓励 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #KEY=Z 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 08:17:49 470 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:17:49 485 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 08:17:49 485 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 08:17:49 485 INFO  - [KeyThreadScript.loadSkill:97] #KEY=CTRL+F12 
+11/21/2017 08:17:49 485 INFO  - [KeyThreadScript.loadSkill:97] #LOOP 
+11/21/2017 08:17:49 485 INFO  - [KeyThreadScript.loadSkill:97] #NOAGENT 
+11/21/2017 08:17:49 485 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_RIGHT 
+11/21/2017 08:17:49 485 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:17:49 485 INFO  - [KeyThreadScript.loadSkill:97] MOVE 840 259 
+11/21/2017 08:17:49 485 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:17:49 485 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_LEFT 
+11/21/2017 08:17:49 485 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 08:17:49 485 INFO  - [KeyThreadScript.loadSkill:97] MOVE 884 439 
+11/21/2017 08:17:49 485 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 08:17:50 453 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1503,11),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 08:17:50 453 DEBUG - [BnsFrame$2.mousePressed:165] X=151  Y=11 
+11/21/2017 08:17:51 218 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1520,48),button=1,modifiers=Button1,clickCount=2 
+11/21/2017 08:17:53 152 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3,keyText=2,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=50 
+11/21/2017 08:17:53 152 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3 
+11/21/2017 08:17:54 791 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 08:17:54 791 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 08:17:55 884 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1533,50),button=1,modifiers=Button1,clickCount=3 
+11/21/2017 08:17:56 353 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1533,33),button=1,modifiers=Button1,clickCount=4 
+11/21/2017 08:17:56 790 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1533,32),button=1,modifiers=Button1,clickCount=5 
+11/21/2017 08:17:57 024 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1533,32),button=1,modifiers=Button1,clickCount=6 
+11/21/2017 08:18:06 745 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1605,51),button=1,modifiers=Button1,clickCount=7 
+11/21/2017 08:18:07 978 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1605,51),button=1,modifiers=Button1,clickCount=8 
+11/21/2017 08:18:08 869 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1580,6),button=1,modifiers=Button1,clickCount=9 
+11/21/2017 08:18:08 869 DEBUG - [BnsFrame$2.mousePressed:165] X=228  Y=6 
+11/21/2017 08:18:10 210 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1515,20),button=1,modifiers=Button1,clickCount=10 
+11/21/2017 08:18:10 210 DEBUG - [BnsFrame$2.mousePressed:165] X=163  Y=20 
+11/21/2017 08:18:11 022 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1584,15),button=1,modifiers=Button1,clickCount=11 
+11/21/2017 08:18:11 022 DEBUG - [BnsFrame$2.mousePressed:165] X=232  Y=15 
+11/21/2017 08:18:12 458 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1508,17),button=1,modifiers=Button1,clickCount=12 
+11/21/2017 08:18:12 458 DEBUG - [BnsFrame$2.mousePressed:165] X=156  Y=17 
+11/21/2017 08:18:18 168 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1475,9),button=1,modifiers=Button1,clickCount=13 
+11/21/2017 08:18:18 168 DEBUG - [BnsFrame$2.mousePressed:165] X=123  Y=9 
+11/21/2017 08:18:19 932 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1568,12),button=1,modifiers=Button1,clickCount=14 
+11/21/2017 08:18:19 932 DEBUG - [BnsFrame$2.mousePressed:165] X=216  Y=12 
+11/21/2017 08:18:20 729 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1511,14),button=1,modifiers=Button1,clickCount=15 
+11/21/2017 08:18:20 744 DEBUG - [BnsFrame$2.mousePressed:165] X=159  Y=14 
+11/21/2017 08:18:41 149 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1561,6),button=2,modifiers=Button2,clickCount=1 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] #1 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] #KEY=1 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] #NOBREAK 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] KEY 1 100 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] }60 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] ﻿#花粉 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] #KEY=3 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] KEY 3 200 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] }3 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] ﻿#蒲公英 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] #KEY=4 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] KEY 4 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 822 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大榔头 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #KEY=C 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY C 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #F 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY F 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大马蜂 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F1 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY G 4000 REAL 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] ﻿#双击倒 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F2 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY V 800 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] ﻿#群体蒲公英 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #KEY=DELETE 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[300] 4 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #KEY=PAGE_UP 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #KEY=R 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #TAB 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #KEY=TAB 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY TAB 150 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] }5 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] ﻿#下段斩 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #KEY=V 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] ﻿#友情 
+11/21/2017 10:26:42 838 INFO  - [KeyThreadScript.loadSkill:97] #KEY=X 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] #鼓励 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] #KEY=Z 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] #KEY=CTRL+F12 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] #LOOP 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] #NOAGENT 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_RIGHT 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] MOVE 840 259 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_LEFT 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] MOVE 884 439 
+11/21/2017 10:26:42 854 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 10:26:44 211 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1514,15),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 10:26:45 631 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1542,2),button=1,modifiers=Button1,clickCount=2 
+11/21/2017 10:26:45 631 DEBUG - [BnsFrame$2.mousePressed:164] X=190  Y=2 
+11/21/2017 10:26:46 022 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1537,8),button=1,modifiers=Button1,clickCount=3 
+11/21/2017 10:26:46 022 DEBUG - [BnsFrame$2.mousePressed:164] X=185  Y=8 
+11/21/2017 10:26:46 568 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1509,11),button=1,modifiers=Button1,clickCount=4 
+11/21/2017 10:26:47 348 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1504,13),button=1,modifiers=Button1,clickCount=5 
+11/21/2017 10:26:48 395 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1504,13),button=1,modifiers=Button1,clickCount=6 
+11/21/2017 10:26:49 581 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1500,11),button=1,modifiers=Button1,clickCount=7 
+11/21/2017 10:26:50 393 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1509,7),button=1,modifiers=Button1,clickCount=8 
+11/21/2017 10:26:51 501 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1536,8),button=1,modifiers=Button1,clickCount=9 
+11/21/2017 10:26:51 501 DEBUG - [BnsFrame$2.mousePressed:164] X=184  Y=8 
+11/21/2017 10:26:52 391 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1502,8),button=1,modifiers=Button1,clickCount=10 
+11/21/2017 10:26:53 374 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1489,13),button=1,modifiers=Button1,clickCount=11 
+11/21/2017 10:26:53 390 DEBUG - [BnsFrame$2.mousePressed:164] X=137  Y=13 
+11/21/2017 10:26:55 465 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1504,10),button=1,modifiers=Button1,clickCount=12 
+11/21/2017 10:26:56 512 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1442,39),button=1,modifiers=Button1,clickCount=13 
+11/21/2017 10:26:57 246 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 10:26:57 246 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 10:26:57 948 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 10:26:57 948 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 10:26:58 105 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 10:26:58 105 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 10:26:59 774 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=15,keyText=Tab,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=9 
+11/21/2017 10:26:59 774 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=15 
+11/21/2017 10:27:01 429 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1532,35),button=1,modifiers=Button1,clickCount=14 
+11/21/2017 10:27:02 163 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1528,50),button=1,modifiers=Button1,clickCount=15 
+11/21/2017 10:27:03 099 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1600,51),button=1,modifiers=Button1,clickCount=16 
+11/21/2017 10:27:03 661 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1600,34),button=1,modifiers=Button1,clickCount=17 
+11/21/2017 10:27:04 769 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1433,46),button=1,modifiers=Button1,clickCount=18 
+11/21/2017 10:27:06 767 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 10:27:06 767 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 10:27:07 501 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 10:27:07 501 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 10:27:07 641 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 10:27:07 641 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 10:27:08 468 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=6,keyText=5,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=53 
+11/21/2017 10:27:08 468 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=6 
+11/21/2017 10:27:08 610 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 10:27:08 610 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 10:27:12 260 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1503,11),button=1,modifiers=Button1,clickCount=19 
+11/21/2017 10:27:13 790 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1506,9),button=1,modifiers=Button1,clickCount=20 
+11/21/2017 10:27:17 940 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 10:27:17 940 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 10:27:19 611 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 10:27:19 611 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 10:27:20 922 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 10:27:20 922 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 10:27:22 327 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 10:27:22 327 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 10:27:23 108 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 10:27:23 108 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 10:27:25 635 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1523,39),button=1,modifiers=Button1,clickCount=21 
+11/21/2017 10:27:26 993 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3667,keyText=Delete,keyChar=Undefined,keyLocation=KEY_LOCATION_NUMPAD,rawCode=46 
+11/21/2017 10:27:26 993 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3667 
+11/21/2017 10:27:26 993 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=308 
+11/21/2017 10:27:26 993 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 10:27:26 993 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 10:27:26 993 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 10:27:27 088 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 10:27:27 088 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 10:27:27 088 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 10:27:27 182 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 10:27:27 182 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 10:27:27 182 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 10:27:27 369 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 10:27:27 369 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 10:27:27 369 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 10:27:27 556 DEBUG - [KeyThreadScript.runSkill:50] runSkill 
+11/21/2017 10:27:27 556 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=13,keyText=Equals,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=187 
+11/21/2017 10:27:27 556 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=13 
+11/21/2017 10:27:27 884 DEBUG - [KeyThreadAbstract.run:29] doWait 
+11/21/2017 10:27:29 429 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3663,keyText=End,keyChar=Undefined,keyLocation=KEY_LOCATION_NUMPAD,rawCode=35 
+11/21/2017 10:27:29 429 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3663 
+11/21/2017 10:27:29 429 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=1 
+11/21/2017 10:27:30 709 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1540,10),button=2,modifiers=Button2,clickCount=1 
+11/21/2017 10:35:26 420 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #1 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #KEY=1 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #NOBREAK 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] KEY 1 100 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] }60 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] ﻿#花粉 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #KEY=3 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] KEY 3 200 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] }3 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] ﻿#蒲公英 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #KEY=4 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] KEY 4 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大榔头 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #KEY=C 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] KEY C 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #F 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] KEY F 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大马蜂 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F1 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] KEY G 4000 REAL 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] ﻿#双击倒 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F2 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] KEY V 800 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] ﻿#群体蒲公英 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #KEY=DELETE 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[300] 4 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #KEY=PAGE_UP 
+11/21/2017 10:35:26 435 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #KEY=R 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #TAB 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #KEY=TAB 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY TAB 150 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] }5 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] ﻿#下段斩 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #KEY=V 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] ﻿#友情 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #KEY=X 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #鼓励 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #KEY=Z 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #KEY=CTRL+F12 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #LOOP 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] #NOAGENT 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_RIGHT 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] MOVE 840 259 
+11/21/2017 10:35:26 451 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 10:35:26 466 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_LEFT 
+11/21/2017 10:35:26 466 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 10:35:26 466 INFO  - [KeyThreadScript.loadSkill:97] MOVE 884 439 
+11/21/2017 10:35:26 466 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 10:35:27 746 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1506,11),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 10:35:29 073 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1419,44),button=1,modifiers=Button1,clickCount=2 
+11/21/2017 10:35:30 181 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 10:35:30 181 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 10:35:31 493 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 10:35:31 493 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 10:35:31 712 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 10:35:31 712 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 10:35:38 560 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 10:35:38 560 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 10:35:39 903 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 10:35:39 903 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 10:35:41 402 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3667,keyText=Delete,keyChar=Undefined,keyLocation=KEY_LOCATION_NUMPAD,rawCode=46 
+11/21/2017 10:35:41 402 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3667 
+11/21/2017 10:35:42 470 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3667,keyText=Delete,keyChar=Undefined,keyLocation=KEY_LOCATION_NUMPAD,rawCode=46 
+11/21/2017 10:35:42 470 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3667 
+11/21/2017 10:35:44 432 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3,keyText=2,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=50 
+11/21/2017 10:35:44 432 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3 
+11/21/2017 10:35:45 104 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57419,keyText=Left,keyChar=Undefined,keyLocation=KEY_LOCATION_NUMPAD,rawCode=37 
+11/21/2017 10:35:45 104 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=57419 
+11/21/2017 10:35:46 118 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=3667,keyText=Delete,keyChar=Undefined,keyLocation=KEY_LOCATION_NUMPAD,rawCode=46 
+11/21/2017 10:35:46 118 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=3667 
+11/21/2017 10:35:48 287 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=10,keyText=9,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=57 
+11/21/2017 10:35:48 287 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=10 
+11/21/2017 10:35:48 460 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=10,keyText=9,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=57 
+11/21/2017 10:35:48 460 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=10 
+11/21/2017 10:35:50 347 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1506,8),button=1,modifiers=Button1,clickCount=3 
+11/21/2017 10:35:53 141 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1468,15),button=1,modifiers=Button1,clickCount=4 
+11/21/2017 10:35:53 141 DEBUG - [BnsFrame$2.mousePressed:164] X=116  Y=15 
+11/21/2017 10:35:55 154 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1505,10),button=1,modifiers=Button1,clickCount=5 
+11/21/2017 10:36:00 522 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1505,10),button=1,modifiers=Button1,clickCount=6 
+11/21/2017 10:36:11 380 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1499,16),button=1,modifiers=Button1,clickCount=7 
+11/21/2017 10:36:16 857 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1507,14),button=1,modifiers=Button1,clickCount=8 
+11/21/2017 10:36:20 695 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1505,10),button=1,modifiers=Button1,clickCount=9 
+11/21/2017 10:36:29 838 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1597,40),button=1,modifiers=Button1,clickCount=10 
+11/21/2017 10:36:30 978 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1606,35),button=1,modifiers=Button1,clickCount=11 
+11/21/2017 10:36:31 634 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1606,35),button=1,modifiers=Button1,clickCount=12 
+11/21/2017 10:36:39 262 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1431,45),button=1,modifiers=Button1,clickCount=13 
+11/21/2017 10:36:40 075 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 10:36:40 075 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 10:36:40 777 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=9,keyText=8,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=56 
+11/21/2017 10:36:40 777 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=9 
+11/21/2017 10:36:40 965 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=9,keyText=8,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=56 
+11/21/2017 10:36:40 965 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=9 
+11/21/2017 10:37:07 689 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1199,265),button=1,modifiers=Button1,clickCount=14 
+11/21/2017 10:37:08 969 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1504,11),button=1,modifiers=Button1,clickCount=15 
+11/21/2017 10:37:10 202 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1504,12),button=1,modifiers=Button1,clickCount=16 
+11/21/2017 10:37:13 183 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1026,353),button=1,modifiers=Button1,clickCount=17 
+11/21/2017 10:37:14 572 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1570,654),button=1,modifiers=Button1,clickCount=18 
+11/21/2017 10:44:53 247 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #1 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #KEY=1 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #NOBREAK 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY 1 100 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] }60 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] ﻿#花粉 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #KEY=3 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY 3 200 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] }3 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] ﻿#蒲公英 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #KEY=4 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY 4 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大榔头 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #KEY=C 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY C 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #F 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY F 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] ﻿#大马蜂 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F1 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY G 4000 REAL 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] ﻿#双击倒 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #KEY=F2 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY V 800 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] ﻿#群体蒲公英 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #KEY=DELETE 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] 4 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] 4 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[300] 4 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #KEY=PAGE_UP 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 10:44:53 263 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] ﻿#Q猫 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #KEY=R 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Q 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Q 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #TAB 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #KEY=TAB 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] { 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY TAB 150 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] }5 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] ﻿#下段斩 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #KEY=V 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY V 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] ﻿#友情 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #KEY=X 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] X 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] X 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #鼓励 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #KEY=Z 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #SUB 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #CONTINUE 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[50] Z 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] KEY_SLEEP[150] Z 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:86] ============================================================= 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #KEY=CTRL+F12 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #LOOP 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] #NOAGENT 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_RIGHT 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] MOVE 840 259 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] MOUSE_LEFT 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 500 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] MOVE 884 439 
+11/21/2017 10:44:53 279 INFO  - [KeyThreadScript.loadSkill:97] PAUSE 1000 
+11/21/2017 10:44:58 489 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=29,keyText=Ctrl,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_LEFT,rawCode=162 
+11/21/2017 10:44:58 489 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=29 
+11/21/2017 10:44:58 615 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57424,keyText=Down,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_NUMPAD,rawCode=40 
+11/21/2017 10:44:58 615 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=57424 
+11/21/2017 10:44:58 615 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=8 
+11/21/2017 10:44:59 582 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=29,keyText=Ctrl,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_LEFT,rawCode=162 
+11/21/2017 10:44:59 582 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=29 
+11/21/2017 10:44:59 926 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57424,keyText=Down,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_NUMPAD,rawCode=40 
+11/21/2017 10:44:59 926 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=57424 
+11/21/2017 10:44:59 926 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=8 
+11/21/2017 10:45:00 519 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=29,keyText=Ctrl,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_LEFT,rawCode=162 
+11/21/2017 10:45:00 519 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=29 
+11/21/2017 10:45:00 644 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57424,keyText=Down,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_NUMPAD,rawCode=40 
+11/21/2017 10:45:00 644 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=57424 
+11/21/2017 10:45:00 644 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=8 
+11/21/2017 10:45:01 019 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57424,keyText=Down,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_NUMPAD,rawCode=40 
+11/21/2017 10:45:01 019 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=57424 
+11/21/2017 10:45:01 019 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=8 
+11/21/2017 10:45:01 643 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57424,keyText=Down,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_NUMPAD,rawCode=40 
+11/21/2017 10:45:01 643 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=57424 
+11/21/2017 10:45:01 643 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=8 
+11/21/2017 10:45:02 175 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57424,keyText=Down,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_NUMPAD,rawCode=40 
+11/21/2017 10:45:02 175 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=57424 
+11/21/2017 10:45:02 175 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=8 
+11/21/2017 10:45:03 532 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=29,keyText=Ctrl,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_LEFT,rawCode=162 
+11/21/2017 10:45:03 532 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=29 
+11/21/2017 10:45:03 736 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57424,keyText=Down,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_NUMPAD,rawCode=40 
+11/21/2017 10:45:03 736 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=57424 
+11/21/2017 10:45:03 736 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=8 
+11/21/2017 10:45:06 637 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1293,13),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 10:45:07 980 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1571,10),button=1,modifiers=Button1,clickCount=2 
+11/21/2017 10:45:08 012 DEBUG - [BnsFrame$2.mousePressed:164] X=219  Y=10 
+11/21/2017 10:45:14 346 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(864,106),button=1,modifiers=Button1,clickCount=3 
+11/21/2017 10:45:15 267 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(844,107),button=1,modifiers=Button1,clickCount=4 
+11/21/2017 10:45:15 439 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(844,107),button=1,modifiers=Button1,clickCount=5 
+11/21/2017 10:45:18 419 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1330,825),button=1,modifiers=Button1,clickCount=6 
+11/21/2017 10:45:21 415 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1412,45),button=1,modifiers=Button1,clickCount=7 
+11/21/2017 10:45:24 349 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=2,keyText=1,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=49 
+11/21/2017 10:45:24 349 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=2 
+11/21/2017 10:45:26 207 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 10:45:26 207 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 10:45:26 364 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=11,keyText=0,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=48 
+11/21/2017 10:45:26 364 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=11 
+11/21/2017 10:45:30 092 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1420,79),button=1,modifiers=Button1,clickCount=8 
+11/21/2017 10:45:30 092 DEBUG - [BnsFrame$2.mousePressed:164] X=68  Y=79 
+11/21/2017 10:45:32 433 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=29,keyText=Ctrl,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_LEFT,rawCode=162 
+11/21/2017 10:45:32 433 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=29 
+11/21/2017 10:45:32 606 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57424,keyText=Down,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_NUMPAD,rawCode=40 
+11/21/2017 10:45:32 606 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=57424 
+11/21/2017 10:45:32 606 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=8 
+11/21/2017 10:45:34 197 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=29,keyText=Ctrl,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_LEFT,rawCode=162 
+11/21/2017 10:45:34 197 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=29 
+11/21/2017 10:45:34 307 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57424,keyText=Down,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_NUMPAD,rawCode=40 
+11/21/2017 10:45:34 307 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=57424 
+11/21/2017 10:45:34 307 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=8 
+11/21/2017 10:45:35 134 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=29,keyText=Ctrl,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_LEFT,rawCode=162 
+11/21/2017 10:45:35 134 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=29 
+11/21/2017 10:45:35 243 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57424,keyText=Down,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_NUMPAD,rawCode=40 
+11/21/2017 10:45:35 243 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=57424 
+11/21/2017 10:45:35 243 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=8 
+11/21/2017 10:45:35 634 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=29,keyText=Ctrl,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_LEFT,rawCode=162 
+11/21/2017 10:45:35 634 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=29 
+11/21/2017 10:45:35 790 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57424,keyText=Down,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_NUMPAD,rawCode=40 
+11/21/2017 10:45:35 790 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=57424 
+11/21/2017 10:45:35 790 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=8 
+11/21/2017 10:45:36 804 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=29,keyText=Ctrl,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_LEFT,rawCode=162 
+11/21/2017 10:45:36 804 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=29 
+11/21/2017 10:45:36 977 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57416,keyText=Up,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_NUMPAD,rawCode=38 
+11/21/2017 10:45:36 992 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=57416 
+11/21/2017 10:45:37 866 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=29,keyText=Ctrl,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_LEFT,rawCode=162 
+11/21/2017 10:45:37 866 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=29 
+11/21/2017 10:45:38 007 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57424,keyText=Down,keyChar=Undefined,modifiers=Ctrl,keyLocation=KEY_LOCATION_NUMPAD,rawCode=40 
+11/21/2017 10:45:38 023 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=2  code=57424 
+11/21/2017 10:45:38 023 DEBUG - [BnsHotkeyListener.onHotKey:111] >>>aIdentifier=8 
+11/21/2017 10:46:12 124 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(42,1079),button=1,modifiers=Button1,clickCount=9 
+11/21/2017 10:46:12 827 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(137,1012),button=1,modifiers=Button1,clickCount=10 
+11/21/2017 10:46:14 263 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=46,keyText=C,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=67 
+11/21/2017 10:46:14 263 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=46 
+11/21/2017 10:46:14 373 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=50,keyText=M,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=77 
+11/21/2017 10:46:14 373 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=50 
+11/21/2017 10:46:14 544 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=32,keyText=D,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=68 
+11/21/2017 10:46:14 544 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=32 
+11/21/2017 10:46:14 700 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=28,keyText=Enter,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=13 
+11/21/2017 10:46:14 700 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=28 
+11/21/2017 10:46:15 340 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=23,keyText=I,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=73 
+11/21/2017 10:46:15 356 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=23 
+11/21/2017 10:46:15 809 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=14,keyText=Backspace,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=8 
+11/21/2017 10:46:15 809 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=14 
+11/21/2017 10:46:16 199 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=23,keyText=I,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=73 
+11/21/2017 10:46:16 199 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=23 
+11/21/2017 10:46:16 402 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=25,keyText=P,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=80 
+11/21/2017 10:46:16 402 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=25 
+11/21/2017 10:46:16 637 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=46,keyText=C,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=67 
+11/21/2017 10:46:16 652 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=46 
+11/21/2017 10:46:16 730 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=24,keyText=O,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=79 
+11/21/2017 10:46:16 730 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=24 
+11/21/2017 10:46:16 793 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=49,keyText=N,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=78 
+11/21/2017 10:46:16 793 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=49 
+11/21/2017 10:46:16 980 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=33,keyText=F,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=70 
+11/21/2017 10:46:16 980 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=33 
+11/21/2017 10:46:17 011 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=23,keyText=I,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=73 
+11/21/2017 10:46:17 011 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=23 
+11/21/2017 10:46:17 198 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=34,keyText=G,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=71 
+11/21/2017 10:46:17 198 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=34 
+11/21/2017 10:46:18 197 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=57,keyText=Space,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=32 
+11/21/2017 10:46:18 197 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=57 
+11/21/2017 10:46:18 447 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=53,keyText=Slash,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=191 
+11/21/2017 10:46:18 447 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=53 
+11/21/2017 10:46:18 619 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=30,keyText=A,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=65 
+11/21/2017 10:46:18 619 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=30 
+11/21/2017 10:46:18 791 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=38,keyText=L,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=76 
+11/21/2017 10:46:18 791 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=38 
+11/21/2017 10:46:18 947 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=38,keyText=L,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=76 
+11/21/2017 10:46:18 947 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=38 
+11/21/2017 10:46:19 196 DEBUG - [KeyListener.nativeKeyPressed:30] NATIVE_KEY_PRESSED,keyCode=28,keyText=Enter,keyChar=Undefined,keyLocation=KEY_LOCATION_STANDARD,rawCode=13 
+11/21/2017 10:46:19 196 DEBUG - [KeyListener.nativeKeyPressed:31] Modifiers=0  code=28 
+11/21/2017 10:46:43 393 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(852,47),button=1,modifiers=Button1,clickCount=1 
+11/21/2017 10:46:45 032 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1104,523),button=1,modifiers=Button1,clickCount=2 
+11/21/2017 10:46:57 669 DEBUG - [MouseListener.nativeMousePressed:80] NATIVE_MOUSE_PRESSED,(1566,784),button=1,modifiers=Button1,clickCount=3 
