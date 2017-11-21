@@ -41,7 +41,8 @@ public interface BnsConst {
 		RECORD_PLAY,
 		RECORD_COLOR,
 		VISIABLE,
-		REFRESH
+		REFRESH,
+		CACULATE
 	}
 	
 	/** 战斗开始热键ID*/

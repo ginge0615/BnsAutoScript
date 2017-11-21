@@ -170,6 +170,9 @@ public class BnsHotkeyListener implements HotkeyListener {
 		} else if (aIdentifier == BnsConst.LISTEN_ID_COM.REFRESH.ordinal()) {
 			//刷新技能
 			frame.refreshSkill();
+		} else if (aIdentifier == BnsConst.LISTEN_ID_COM.CACULATE.ordinal()) {
+			//计算技能表示
+			frame.showCalculate();
 			
 		} else if (aIdentifier >= BnsConst.LISTEN_ID_CAREER_BASE && aIdentifier <= BnsConst.LISTEN_ID_CAREER_BASE + BnsConst.LISTEN_ID_MAX_NUM ) {
 			//职业选择

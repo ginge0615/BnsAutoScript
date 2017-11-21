@@ -27,14 +27,9 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 			preMouseLeftTime = System.currentTimeMillis();
 		}
 		
-		if (isColorOkCached("双龙破")) {
+		if (isColorOkCached("双龙破") || isColorOkCached("冰龙破")) {
 			doSleep(BnsConst.KEY_DEFAULT_SLEEP);
 			keyPress("F");
-			this.clearCachedColor("双龙破");
-		} else 	if (isColorOkCached("冰龙破")) {
-			doSleep(BnsConst.KEY_DEFAULT_SLEEP);
-			keyPress("F");
-			this.clearCachedColor("冰龙破");
 		} 
 
 		return true;

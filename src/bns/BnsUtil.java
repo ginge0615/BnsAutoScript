@@ -52,18 +52,18 @@ public class BnsUtil {
 		
 		for (ColorBean cb : mapColor.get(colorName)) {
 			Color color = r.getPixelColor(cb.getX(), cb.getY());
-
-			boolean isSameColor = Math.abs(color.getRed() - cb.getRed()) <= COLOR_OFFSET
-					&& Math.abs(color.getGreen() - cb.getGreen()) <= COLOR_OFFSET
-					&& Math.abs(color.getBlue() - cb.getBlue()) <= COLOR_OFFSET;
-
-			cb.setOK((!cb.isExceptThisColor() && isSameColor) || (cb.isExceptThisColor() && !isSameColor));
-
-			if (cb.isOK()) {
+			
+			boolean isSameColor = Math.abs(color.getRed() - cb.getRed())  <= COLOR_OFFSET 
+					&& Math.abs(color.getGreen() - cb.getGreen())  <= COLOR_OFFSET
+					&& Math.abs(color.getBlue() - cb.getBlue())  <= COLOR_OFFSET;
+			
+			if ((!cb.isExceptThisColor() && isSameColor)
+					|| (cb.isExceptThisColor() && !isSameColor)) {
 				return true;
 			}
 		}
 
 		return false;
 	}
+	
 }

@@ -29,12 +29,7 @@ public class PixColorThread extends KeyThreadAbstract{
 		
 		while (iter.hasNext()) {
 			key = iter.next();
-			
-			if (!mapColorStatus.get(key)) {
-				mapColorStatus.put(key, BnsUtil.isColorOK(key, r));
-			} else {
-				doSleep(50);
-			}
+			mapColorStatus.put(key, BnsUtil.isColorOK(key, r));
 		}
 		
 		isReady = true;
@@ -54,16 +49,6 @@ public class PixColorThread extends KeyThreadAbstract{
 		}
 		
 		return mapColorStatus.get(colorName);
-	}
-	
-	/**
-	 * 清空取色状态
-	 * @param colorName
-	 */
-	public void clearColor(String colorName) {
-		if (mapColorStatus.containsKey(colorName)) {
-			mapColorStatus.put(colorName, false);
-		}
 	}
 
 	public boolean isReady() {
