@@ -12,7 +12,7 @@ public class PixColorThread extends KeyThreadAbstract{
 	private org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(PixColorThread.class);
 	
 	private Map<String, Boolean> mapColorStatus;
-	private Map<String, ColorBean[]> mapColor;
+	private Map<String, ColorBean[][]> mapColor;
 	private boolean isReady = false;
 	
 	public PixColorThread() {

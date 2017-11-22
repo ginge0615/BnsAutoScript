@@ -8,7 +8,6 @@ import java.awt.SystemTray;
 import java.awt.TrayIcon;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionAdapter;
 import java.io.File;
 import java.io.IOException;

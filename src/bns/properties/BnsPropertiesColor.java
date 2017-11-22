@@ -17,7 +17,7 @@ public class BnsPropertiesColor extends PropertiesAbstract {
 
 	private static BnsPropertiesColor obj;
 	
-	private HashMap<String, ColorBean[]> map = new HashMap<String, ColorBean[]>();
+	private HashMap<String, ColorBean[][]> map = new HashMap<String, ColorBean[][]>();
 	private String career;
 	
 	public static BnsPropertiesColor getInstance() {
@@ -32,7 +32,7 @@ public class BnsPropertiesColor extends PropertiesAbstract {
 		this.career = career;
 		super.load(BnsConst.SCRIPT_PATH  + this.career + File.separator + "COLOR.properties");
 		
-		ColorBean[] beans = null;
+		ColorBean[][] beans = null;
 		map.clear();
 		
 		if (BnsPropertiesConfig.getInstance().containsKey("RUN_COLOR")) {
@@ -40,6 +40,9 @@ public class BnsPropertiesColor extends PropertiesAbstract {
 		}
 		
 		Iterator<String> iter = this.stringPropertyNames().iterator();
+		
+		String[] arrOr = null;
+		String[] arrAnd = null;
 
 		while (iter.hasNext()) {
 			String key = iter.next();
@@ -48,17 +51,19 @@ public class BnsPropertiesColor extends PropertiesAbstract {
 			if (value == null || value.trim().length() == 0) {
 				continue;
 			}
-
-			if (value.contains("|")) {
-				String[] arr = value.split("\\|");
-				beans = new ColorBean[arr.length];
-
-				for (int i = 0; i < arr.length; i++) {
-					beans[i] = toBean(arr[i]);
+			
+			arrOr = value.split("\\|");
+			
+			beans = new ColorBean[arrOr.length][];
+			
+			for (int i = 0; i < arrOr.length; i++) {
+				arrAnd = arrOr[i].split("\\&");
+				
+				beans[i] = new ColorBean[arrAnd.length];
+				
+				for (int j = 0; j < arrAnd.length; j++) {
+					beans[i][j] = toBean(arrAnd[j]);
 				}
-			} else {
-				beans = new ColorBean[1];
-				beans[0] = toBean(value);
 			}
 
 			map.put(key.toUpperCase(), beans);
@@ -67,7 +72,7 @@ public class BnsPropertiesColor extends PropertiesAbstract {
 	
 	private ColorBean toBean(String value) {
 		ColorBean bean = new ColorBean();
-		String[] arr = value.trim().split(",");
+		String[] arr = value.replaceAll("[\\s()]", "").split(",");
 		
 		if (arr.length == 5) {
 			if (arr[0].startsWith("^")) {
@@ -89,11 +94,11 @@ public class BnsPropertiesColor extends PropertiesAbstract {
 		return map.containsKey(key);
 	}
 	
-	public ColorBean[] getColorBean(String key) {
+	public ColorBean[][] getColorBean(String key) {
 		return map.get(key);
 	}
 	
-	public HashMap<String, ColorBean[]> getColorMap() {
+	public HashMap<String, ColorBean[][]> getColorMap() {
 		return this.map;
 	}
 }

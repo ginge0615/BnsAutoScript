@@ -16,7 +16,7 @@ public class BnsUtil {
 	private static final int COLOR_OFFSET = PROP_CONFIG.getPropertyInt("COLOR_OFFSET");
 	
 	private static final Pattern P_NUM = Pattern.compile("[0-9]+");
-	private static HashMap<String, ColorBean[]> mapColor = BnsPropertiesColor.getInstance().getColorMap();
+	private static HashMap<String, ColorBean[][]> mapColor = BnsPropertiesColor.getInstance().getColorMap();
 
 	/**
 	 * 判断是否是数字
@@ -50,17 +50,22 @@ public class BnsUtil {
 			return false;
 		}
 		
-		for (ColorBean cb : mapColor.get(colorName)) {
-			Color color = r.getPixelColor(cb.getX(), cb.getY());
+		for (ColorBean[] cbOr : mapColor.get(colorName)) {
 			
-			boolean isSameColor = Math.abs(color.getRed() - cb.getRed())  <= COLOR_OFFSET 
-					&& Math.abs(color.getGreen() - cb.getGreen())  <= COLOR_OFFSET
-					&& Math.abs(color.getBlue() - cb.getBlue())  <= COLOR_OFFSET;
+			boolean isOK = true;
 			
-			if ((!cb.isExceptThisColor() && isSameColor)
-					|| (cb.isExceptThisColor() && !isSameColor)) {
-				return true;
+			for (ColorBean cb : cbOr) {
+				Color color = r.getPixelColor(cb.getX(), cb.getY());
+				
+				boolean isSameColor = Math.abs(color.getRed() - cb.getRed())  <= COLOR_OFFSET 
+						&& Math.abs(color.getGreen() - cb.getGreen())  <= COLOR_OFFSET
+						&& Math.abs(color.getBlue() - cb.getBlue())  <= COLOR_OFFSET;
+				
+				isOK &= (!cb.isExceptThisColor() && isSameColor) || (cb.isExceptThisColor() && !isSameColor);
 			}
+			
+			if (isOK) return true;
+			
 		}
 
 		return false;
