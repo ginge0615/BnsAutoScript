@@ -100,10 +100,10 @@ public class MouseListener implements NativeMouseListener{
 			case 3:
 				doConsumeEvent(arg0);
 				//鼠标中键
-				if (frame.getCase() == 1) {
-					frame.setCase(2);
+				if (frame.getCase() == BnsConst.CASE.小怪) {
+					frame.setCase(BnsConst.CASE.BOSS);
 				} else {
-					frame.setCase(1);
+					frame.setCase(BnsConst.CASE.小怪);
 				}
 				
 				break;

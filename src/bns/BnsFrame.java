@@ -8,7 +8,6 @@ import java.awt.SystemTray;
 import java.awt.TrayIcon;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionAdapter;
 import java.io.File;
 import java.io.IOException;
@@ -96,7 +95,7 @@ public class BnsFrame extends JFrame {
     
 
     /** 技能CASE*/
-    private int caseKbn;
+    private BnsConst.CASE caseKbn;
     
     public static BnsFrame getInstance() {
     	if (bf == null) {
@@ -217,7 +216,7 @@ public class BnsFrame extends JFrame {
 		thManager.refresh();
 		listener.refresh();
 		
-		setCase(1);
+		setCase(BnsConst.CASE.小怪);
 		this.setStatus(STATUS_NO_FIGHTING);
 		
 		if (objBnsTest != null) {
@@ -265,7 +264,7 @@ public class BnsFrame extends JFrame {
 			jLabelCase.setLocation(new Point(100, 0));
 			jLabelCase.setFont(new Font("SimHei", Font.PLAIN, 15));
 			jLabelCase.setHorizontalAlignment(SwingConstants.CENTER);
-			setCase(1);
+			setCase(BnsConst.CASE.小怪);
 		}
 		
 		return jLabelCase;
@@ -555,22 +554,13 @@ public class BnsFrame extends JFrame {
 		return this.status;
 	}
 	
-	public void setCase(int c) {
-		switch (c) {
-		case 1:
-			this.jLabelCase.setText("小怪");
-			break;
-		case 2:
-			this.jLabelCase.setText("BOSS");
-			break;
-		default:
-			this.jLabelCase.setText("C" + c);
-		}
+	public void setCase(BnsConst.CASE c) {
+		this.jLabelCase.setText(c.name());
 		
 		this.caseKbn = c;
 	}
 	
-	public int getCase() {
+	public BnsConst.CASE getCase() {
 		return this.caseKbn;
 	}
 	

@@ -10,6 +10,7 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 	 * @return true:循环执行   false:单次执行
 	 */
 	protected boolean runSkill() throws InterruptedException, Exception {
+		log.debug("runSkill");
 		
 		if (isColorOkCached("F")) {
 			keyPress("F");

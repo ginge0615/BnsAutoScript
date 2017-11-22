@@ -32,7 +32,7 @@ public class KeyThreadScript extends KeyThreadAbstract {
 	 * 开始
 	 */
 	public synchronized void doStart() {
-		int kbnCase = fm.getCase();
+		int kbnCase = fm.getCase().ordinal();
 		
 		if (skillCase.containsKey(kbnCase)) {
 			skills = skillCase.get(kbnCase);

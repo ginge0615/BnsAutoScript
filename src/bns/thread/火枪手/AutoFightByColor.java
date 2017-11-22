@@ -14,7 +14,7 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 	 */
 	protected boolean runSkill() throws InterruptedException, Exception {
 		//BOSS
-		if (fm.getCase() == 2) {
+		if (fm.getCase() == BnsConst.CASE.BOSS) {
 			if (isFirstRun) {
 				isFirstRun = false;
 				if (isColorOK("C")) keyPress("C");//流星坠
