@@ -26,14 +26,13 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 		
 		//起手
 		if (isFirstRun) {
-			isFirstRun = false;
 			isAutoQ = false;
 			startFightTime = System.currentTimeMillis();
 			
-			if (fm.getCase() != 1) {
+			if (fm.getCase() != BnsConst.CASE.小怪) {
 				if (isColorOK("投掷花粉")) keyPress("3", 600);//花粉
 				if (isColorOkCached("常春藤")) keyPress("1", 600);//常春藤
-				if (fm.getCase() != 3 && isColorOkCached("荆棘藤")) keyPress("2");//荆棘藤
+				if (isColorOkCached("荆棘藤")) keyPress("2");//荆棘藤
 			}
 		}
 		 
@@ -45,7 +44,7 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 		//Boss:自动擒拿，自动花粉，自动扣猫，自动荆棘藤
 		//监狱:自动擒拿，自动花粉，自动扣猫，手动荆棘藤
 		//PVP:自动擒拿，自动花粉，手动扣猫，自动荆棘藤
-		if (fm.getCase() != 3 && isColorOkCached("荆棘藤")) {
+		if (isColorOkCached("荆棘藤")) {
 			keyPress("2");
 		} 
 		
@@ -68,11 +67,11 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 		}
 		
 		//========================= 猫控制 ============================
-		if (fm.getCase() != 1 ) {
+		if (fm.getCase() != BnsConst.CASE.小怪) {
 			if (isColorOkCached("擒拿")) {
 				preTabTime = System.currentTimeMillis();
 				keyPress("TAB");
-			}  else if (fm.getCase() != 4 && isAutoQ && (System.currentTimeMillis() - preTabTime >= 4000) && isColorOkCached("畏缩")) {
+			}  else if (fm.getCase() != BnsConst.CASE.单人 && isAutoQ && (System.currentTimeMillis() - preTabTime >= 4000) && isColorOkCached("畏缩")) {
 				keyPress("Q");
 			}
 		}

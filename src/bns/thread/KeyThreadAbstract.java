@@ -34,6 +34,7 @@ public abstract class KeyThreadAbstract extends KeyThreadBase {
 				}
 				
 				if (runSkill()) {
+					this.isFirstRun = false;
 					doSleep(10);
 				} else {
 					isPause = true;

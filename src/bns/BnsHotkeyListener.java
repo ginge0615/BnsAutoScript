@@ -62,7 +62,7 @@ public class BnsHotkeyListener implements HotkeyListener {
 
 		//==============挂载CASE按键监听===================
 		String keyCaseString = BnsUtil.PROP_CONFIG.getProperty("KEY_CASE");
-		int maxCase = BnsUtil.PROP_CONFIG.getPropertyInt("MAX_CASE");
+		int maxCase = BnsConst.CASE.values().length;
 		for (int i = 1; i <= maxCase; i++) {
 			this.setupHotKey(keyCaseString + i, BnsConst.LISTEN_ID_CASE_BASE + i, false);
 		}
@@ -180,7 +180,7 @@ public class BnsHotkeyListener implements HotkeyListener {
 			
 		} else if (aIdentifier >= BnsConst.LISTEN_ID_CASE_BASE && aIdentifier <= BnsConst.LISTEN_ID_CASE_BASE + BnsConst.LISTEN_ID_MAX_NUM ) {
 			//设置技能CASE
-			frame.setCase(aIdentifier - BnsConst.LISTEN_ID_CASE_BASE);
+			frame.setCase(BnsConst.CASE.values()[aIdentifier - BnsConst.LISTEN_ID_CASE_BASE - 1]);
 		} 
 	}
 	

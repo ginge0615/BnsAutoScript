@@ -79,5 +79,13 @@ public interface BnsConst {
 		力士,
 		咒术士,
 		时空塔,
-	}	
+	}
+	
+	/** 模式 */
+	enum CASE {
+		小怪,
+		BOSS,
+		单人,
+		比武
+	}
 }
