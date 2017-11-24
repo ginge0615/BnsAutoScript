@@ -1,5 +1,0 @@
-﻿#吃药
-#KEY=6
-#CONTINUE
-#SUB
-KEY 6
