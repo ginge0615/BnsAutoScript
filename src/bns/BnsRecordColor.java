@@ -371,7 +371,7 @@ class Magnifier extends JFrame {
 	/**
 	 * 放大镜尺寸
 	 */
-	private static final int MAGNIFIERSIZE = 150;
+	private static final int MAGNIFIERSIZE = 200;
 	
 	/**
 	 * 中心点相对位置
@@ -528,13 +528,13 @@ class MagnifierPanel extends JPanel {
 
 	private int locationY;
 	
-	private int pointSize = 30;
+	private int pointSize = 60;
 	
 	
 	/**
 	 * 放大率
 	 */
-	private static final int ZOOM = 8;
+	private static final int ZOOM = 4;
 
 	/**
 	 * 带参数的构造函数

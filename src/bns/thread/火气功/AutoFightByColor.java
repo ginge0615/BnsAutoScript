@@ -8,6 +8,8 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 	
 	private int cntFire = 0;
 	
+	private boolean isOkX;
+	
 	/**
 	 * 执行自定义技能
 	 * @return true:循环执行   false:单次执行
@@ -19,15 +21,21 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 			mousePress(BnsConst.MOUSE_RIGHT, 500);
 			mousePress(BnsConst.MOUSE_LEFT, 500);			
 			keyPress("F");
-			cntFire = 5;
 		} else if (cntFire >= 5) {
 			mousePress(BnsConst.MOUSE_RIGHT, 500);
-			mousePress(BnsConst.MOUSE_LEFT, 500);	
-			keyPress("1");		
-			cntFire = 0;	
+			mousePress(BnsConst.MOUSE_LEFT, 500);
+			isOkX = isColorOkCached("火莲掌");	
+			keyPress("1");	
+			cntFire = 0;
+			
+			if (fm.getCase() != BnsConst.CASE.小怪 && isOkX) {
+				mousePress(BnsConst.MOUSE_LEFT, 500);
+				keyPress("X", 1000);
+				keyPress("X");
+			}
 		} else {
 			mousePress(BnsConst.MOUSE_RIGHT);
-			mousePress(BnsConst.MOUSE_LEFT);	
+			mousePress(BnsConst.MOUSE_LEFT);		
 			keyPress("2");
 			cntFire++;
 		}
