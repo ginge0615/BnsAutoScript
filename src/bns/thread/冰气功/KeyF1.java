@@ -21,23 +21,27 @@ public class KeyF1 extends KeyThreadAbstract {
 		if (isColorOK("天龙炮")) {
 			keyPress("G", BnsConst.RELEASE_DELAY, 4000, false);
 		} else {
-			//切火姿态
-			keyPress("Q");
+			keyPress("Q", 500);
 			
-			keyPress("X", BnsConst.RELEASE_DELAY, 4000, false);
+			boolean isOkX = isColorOK("火莲掌");			
+			if (isOkX) {
+				keyPress("X", 3000);
+				mousePress(BnsConst.MOUSE_LEFT, 500);
+			}
 			
-			//执行火系一套	
-			KeyCommon.doFire(this);
-			//切冰姿态
-			mousePress(BnsConst.MOUSE_RIGHT);
+			if (isColorOK("流星指")) {
+				mousePress(BnsConst.MOUSE_LEFT, 500);
+				keyPress("V");
+			}
+			
+			if (isOkX) {
+				mousePress(BnsConst.MOUSE_LEFT, 500);
+				keyPress("X", 500);
+			}
 		}
-		
 		
 		//执行雪冰掌
 		KeyCommon.doKeyZ(this);
-		
-		// 玄冰掌
-		mousePress(BnsConst.MOUSE_RIGHT);
 
 		return false;
 	}

@@ -1,3 +1,4 @@
-﻿#KEY=Z
+﻿#Z
+#KEY=Z
 #SUB
 KEY Z
