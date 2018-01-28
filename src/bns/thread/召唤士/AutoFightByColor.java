@@ -45,9 +45,9 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 
 		} else if (systime <= endTimeFengyepiao ) {
 			//枫叶飘期间
-//			if (isColorOkCached("荆棘藤")) {
+			if (isColorOkCached("荆棘藤")) {
 				keyPress("2");
-//			}
+			}
 			
 		} else {
 			if (isColorOkCached("荆棘藤")) {
