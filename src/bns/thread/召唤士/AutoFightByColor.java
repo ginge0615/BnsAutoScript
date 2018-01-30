@@ -12,6 +12,8 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 	private long preTimeQianniuhua = 0l;
 	/** 枫叶飘结束时间*/
 	private long endTimeFengyepiao = 0l;
+	/** 下一次飞栗球时间*/
+	private long nextFeileiTime = 0l;
 	
 	/**
 	 * 执行自定义技能
@@ -22,11 +24,15 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 		
 		//起手
 		if (isFirstRun) {
-			if (fm.getCase() != BnsConst.CASE.小怪) {
-//				if (isColorOK("投掷花粉")) keyPress("3", 600);//花粉
-				if (isColorOkCached("灵")) keyPress("8", BnsConst.RELEASE_DELAY, BnsConst.KEY_DEFAULT_SLEEP, false);
-				if (isColorOkCached("常春藤")) keyPress("1", 600);//常春藤
-				if (isColorOkCached("荆棘藤")) keyPress("2");//荆棘藤
+			if (isColorOK("常春藤")) keyPress("1", 600);//常春藤
+			if (isColorOkCached("荆棘藤")) keyPress("2");//荆棘藤
+			nextFeileiTime = 0;
+			isFirstRun = false;
+		}
+		
+		if (fm.getCase() != BnsConst.CASE.小怪) {
+			if (isColorOkCached("灵核") && isColorOkCached("灵")) {
+				keyPress("8", BnsConst.RELEASE_DELAY, BnsConst.KEY_DEFAULT_SLEEP, false);
 			}
 		}
 		
@@ -36,12 +42,10 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 		
 		long systime = System.currentTimeMillis();
 		
-		if (isColorOkCached("板栗球") && (systime - endTimeFengyepiao >= 2000)) {
-			while (isColorOkCached("板栗球")) {
-				keyPress("F");
-			}
-			
+		if (isColorOkCached("板栗球") && (systime > nextFeileiTime)) {
+			for (int i = 0; i < 8; i++) keyPress("F", 50);
 			endTimeFengyepiao = systime + 4000;
+			nextFeileiTime = endTimeFengyepiao + 1000;
 
 		} else if (systime <= endTimeFengyepiao ) {
 			//枫叶飘期间
@@ -69,9 +73,7 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 		}
 		
 		//========================= 猫控制 ============================
-		if (fm.getCase() != BnsConst.CASE.小怪) {
-			if (isColorOkCached("灵")) keyPress("8", BnsConst.RELEASE_DELAY, BnsConst.KEY_DEFAULT_SLEEP, false);
-			
+		if (fm.getCase() == BnsConst.CASE.单人) {
 			if (isColorOkCached("擒拿")) {
 				keyPress("TAB");
 			}
