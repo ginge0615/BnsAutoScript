@@ -596,6 +596,7 @@ public class BnsFrame extends JFrame {
 			bf.setSize(270, 90);
 			
 			jTxtPrice.setText("");
+			jTxtPrice.requestFocus();
 			jSpinnerPersionNum.setValue(new Integer("6"));
 			jSpinnerNum.setValue(new Integer("1"));
 			jLabelMin.setText("");

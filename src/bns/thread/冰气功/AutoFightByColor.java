@@ -16,21 +16,25 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 	protected boolean runSkill() throws InterruptedException, Exception {
 		log.debug("气功");
 		
-		//卡刀
-		//冰白寒炮
-		keyPress("2", 50);
-		// 玄冰掌
-		mousePress(BnsConst.MOUSE_RIGHT, 300);
-		
-		if ((System.currentTimeMillis()) - preMouseLeftTime >= 6000) {
-			mousePress(BnsConst.MOUSE_LEFT);
-			preMouseLeftTime = System.currentTimeMillis();
+		if (fm.getCase() == BnsConst.CASE.BOSS && isColorOkCached("雪冰掌")) {
+			KeyCommon.doKeyZ(this);
 		}
 		
 		if (isColorOkCached("双龙破") || isColorOkCached("冰龙破")) {
 			doSleep(BnsConst.KEY_DEFAULT_SLEEP);
 			keyPress("F");
-		} 
+		} else {
+			//卡刀
+			//冰白寒炮
+			keyPress("2", 50);
+			// 玄冰掌
+			mousePress(BnsConst.MOUSE_RIGHT, 300);			
+		}		
+		
+		if ((System.currentTimeMillis()) - preMouseLeftTime >= 6000) {
+			mousePress(BnsConst.MOUSE_LEFT);
+			preMouseLeftTime = System.currentTimeMillis();
+		}
 
 		return true;
 	}
