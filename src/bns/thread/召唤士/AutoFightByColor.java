@@ -10,10 +10,12 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 	private long preTimeChangchunteng = 0l;
 	/** 牵牛花*/
 	private long preTimeQianniuhua = 0l;
-	/** 枫叶飘结束时间*/
-	private long endTimeFengyepiao = 0l;
+//	/** 枫叶飘结束时间*/
+//	private long endTimeFengyepiao = 0l;
 	/** 下一次飞栗球时间*/
 	private long nextFeileiTime = 0l;
+	
+	private boolean isSecondFeilei = false;
 	
 	/**
 	 * 执行自定义技能
@@ -24,10 +26,10 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 		
 		//起手
 		if (isFirstRun) {
-			if (isColorOK("常春藤")) keyPress("1", 600);//常春藤
-			if (isColorOkCached("荆棘藤")) keyPress("2");//荆棘藤
+			if (isColorOK("常春藤")) keyPress("1");//常春藤
 			nextFeileiTime = 0;
 			isFirstRun = false;
+			isSecondFeilei = false;
 		}
 		
 		if (fm.getCase() != BnsConst.CASE.小怪) {
@@ -37,40 +39,38 @@ public class AutoFightByColor extends AutoFightKeyThreadAbstract {
 		}
 		
 		//卡刀
-		mousePress(BnsConst.MOUSE_LEFT, 50);
-		mousePress(BnsConst.MOUSE_RIGHT, 50);
+		mousePress(BnsConst.MOUSE_RIGHT, 20);
 		
-		long systime = System.currentTimeMillis();
-		
-		if (isColorOkCached("板栗球") && (systime > nextFeileiTime)) {
-			for (int i = 0; i < 8; i++) keyPress("F", 50);
-			endTimeFengyepiao = systime + 4000;
-			nextFeileiTime = endTimeFengyepiao + 1000;
-
-		} else if (systime <= endTimeFengyepiao ) {
-			//枫叶飘期间
-			if (isColorOkCached("荆棘藤")) {
-				keyPress("2");
-			}
-			
-		} else {
-			if (isColorOkCached("荆棘藤")) {
-				keyPress("2");
-			}
-			else if (isColorOkCached("投掷花粉") && !isColorOkCached("大向日葵")) {
-				keyPress("3");
-			}
-
-			else if (isColorOkCached("常春藤") && System.currentTimeMillis() - preTimeQianniuhua >= 9500) {
-				preTimeChangchunteng = System.currentTimeMillis();
-				keyPress("1");
-			}
-			
-			else if (isColorOkCached("牵牛花") && System.currentTimeMillis() - preTimeChangchunteng >= 14500) {
-				preTimeQianniuhua = System.currentTimeMillis();
-				keyPress("F");
-			}			
+		if (isColorOkCached("荆棘藤")) {
+			for (int i = 0; i < 8; i++) keyPress("2", 50);
 		}
+		
+		else if (isColorOkCached("板栗球")) {
+			if (isSecondFeilei && System.currentTimeMillis() >= nextFeileiTime ) {
+				for (int i = 0; i < 8; i++) keyPress("F", 50);
+				nextFeileiTime = System.currentTimeMillis() + 1000;
+				isSecondFeilei = false;
+			} else {
+				isSecondFeilei = true;
+			}
+		}
+		
+		else if (isColorOkCached("投掷花粉") && !isColorOkCached("大向日葵")) {
+			keyPress("3");
+		}
+
+		else if (isColorOkCached("常春藤") && System.currentTimeMillis() - preTimeQianniuhua >= 9500) {
+			preTimeChangchunteng = System.currentTimeMillis();
+			keyPress("1");
+		}
+
+		else if (isColorOkCached("牵牛花") && System.currentTimeMillis() - preTimeChangchunteng >= 14500) {
+			preTimeQianniuhua = System.currentTimeMillis();
+			keyPress("F");
+		}
+		
+		mousePress(BnsConst.MOUSE_LEFT, 20);
+		mousePress(BnsConst.MOUSE_RIGHT, 20);
 		
 		//========================= 猫控制 ============================
 		if (fm.getCase() == BnsConst.CASE.单人) {
