@@ -6,17 +6,16 @@ import bns.BnsFrame;
 import bns.BnsRobot;
 
 public abstract class KeyThreadBase extends Thread {
-	protected boolean isFirstRun = true;
+	protected boolean isPause = true;
 	protected int indentity = 0;
-	protected String key;
+	protected String key = "";
 	protected boolean isContinueFight = false;
-	public boolean isPause = true;
 	protected boolean isOver = false;
 	protected boolean isSubThread = false;
-	protected boolean isBreakRuning = true;
 	protected BnsFrame fm = BnsFrame.getInstance();
 	protected BnsRobot r = null;
-
+	
+	private boolean isFirstRun = true;
 	private Logger logger = Logger.getLogger(KeyThreadBase.class );
 	
 	public KeyThreadBase() {
@@ -110,14 +109,6 @@ public abstract class KeyThreadBase extends Thread {
 
 	public void setSubThread(boolean isSubThread) {
 		this.isSubThread = isSubThread;
-	}
-
-	public boolean isBreakRuning() {
-		return isBreakRuning;
-	}
-
-	public void setBreakRuning(boolean isBreakRuning) {
-		this.isBreakRuning = isBreakRuning;
 	}
 	
 	/**

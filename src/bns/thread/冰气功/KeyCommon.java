@@ -19,7 +19,7 @@ class KeyCommon {
 				th.mousePress(BnsConst.MOUSE_RIGHT, 300);
 				th.keyPress("F");
 				long nowTime = System.currentTimeMillis();
-				while (System.currentTimeMillis() - nowTime <= 9500 && !th.isPause) {
+				while (System.currentTimeMillis() - nowTime <= 9500 && th.isRun()) {
 					th.keyPress("2");
 					th.doSleep(50);
 				}

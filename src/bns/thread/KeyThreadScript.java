@@ -108,9 +108,7 @@ public class KeyThreadScript extends KeyThreadAbstract {
 						isContinueFight = true;
 					} else if (s.startsWith("#SUB")) {
 						this.isSubThread = true;
-					} else if (s.startsWith("#NOBREAK")) { 
-						this.isBreakRuning = false;
-					} 
+					}
 					else if (s.startsWith("#CASE")) {
 						int kbn = Integer.parseInt(s.replace("#CASE", ""));
 						

@@ -7,7 +7,9 @@ import bns.BnsUtil;
 import bns.bean.ScriptBean;
 
 public abstract class KeyThreadAbstract extends KeyThreadBase {
-	private Logger log = Logger.getLogger(KeyThreadAbstract.class );
+	private Logger log = Logger.getLogger(KeyThreadAbstract.class);
+	
+	protected boolean isFirstLoop = true;
 	
 	public KeyThreadAbstract() {
 		super();
@@ -26,16 +28,15 @@ public abstract class KeyThreadAbstract extends KeyThreadBase {
 		while (!isOver) {
 			try {
 				if (isPause) {
-					log.debug("doWait");
 					this.doWait();
 					if (isOver) {
 						return;
 					}
+					this.isFirstLoop = true;
 				}
 				
 				if (runSkill()) {
-					this.isFirstRun = false;
-					doSleep(10);
+					this.isFirstLoop = false;
 				} else {
 					isPause = true;
 					if (isContinueFight) {

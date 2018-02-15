@@ -27,19 +27,9 @@ public class KeyListener implements NativeKeyListener {
 	}
 
 	public void nativeKeyPressed(NativeKeyEvent e) {
-		logger.debug(e.paramString());
-		logger.debug("Modifiers=" + e.getModifiers() + "  code=" + e.getKeyCode());
-		
-//		//Off的状态下连续按2次Q开始战斗
-//		if (e.getKeyCode() == NativeKeyEvent.VC_Q && 
-//				preEvent != null && (preEvent.getKeyCode() == NativeKeyEvent.VC_Q) ) {
-//			if (frame.getStatus() == BnsFrame.STATUS_OFF) {
-//				frame.getBnsHotkeyListener().doOn();
-//				frame.getBnsHotkeyListener().startFight();
-//			}
-//			return;
-//		}
-		
+//		logger.debug(e.paramString());
+//		logger.debug("Modifiers=" + e.getModifiers() + "  code=" + e.getKeyCode());
+	
 		if (frame.getStatus() == BnsFrame.STATUS_OFF) return;
 		
 		if (e.getKeyCode() == NativeKeyEvent.VC_ENTER || 
@@ -54,9 +44,9 @@ public class KeyListener implements NativeKeyListener {
 				e.getKeyCode() != NativeKeyEvent.VC_UP && 
 				e.getKeyCode() != NativeKeyEvent.VC_SPACE) {
 			
-			KeyThreadBase th = frame.getBnsThreadManager().getRuningThread();
+			KeyThreadBase th = frame.getBnsThreadManager().getThreadMap().get(BnsConst.LISTEN_ID_RUN);
 			
-			if (th != null && th.isRun() &&  th.getIndentity() == BnsConst.LISTEN_ID_RUN) {
+			if (th != null && th.isRun()) {
 				th.doPause();
 				return;
 			}

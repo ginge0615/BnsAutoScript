@@ -22,15 +22,7 @@ public class KeyThreadRun extends KeyThreadBase {
 	
 	public synchronized void doStart() {
 		this.fm.setStatus(BnsFrame.STATUS_RUNNING);
-		if (isFirstRun) {
-			isFirstRun = false;
-			isPause = false;
-			
-			this.start();
-		} else if (isPause) {
-			isPause = false;
-			this.notify();
-		}
+		super.doStart();
 	}
 
 
@@ -59,18 +51,8 @@ public class KeyThreadRun extends KeyThreadBase {
 					r.keyRelease(KEY_CODE);
 					doSleep(DB_SPACE);
 					r.keyPress(KEY_CODE);
-					
-//					while (!isPause) {
-//						if (BnsUtil.isColorOK("RUN_COLOR", r)) {
-//							//继续奔跑
-//							doSleep(SLEEP);
-//						} else {
-							//走一回再跑
-							doSleep(SLEEP);
-							r.keyRelease(KEY_CODE);
-//							break;
-//						}
-//					}
+					doSleep(SLEEP);
+					r.keyRelease(KEY_CODE);
 					
 				} catch (Exception e) {
 					isPause = true;

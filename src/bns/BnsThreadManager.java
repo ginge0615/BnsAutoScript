@@ -2,14 +2,18 @@ package bns;
 
 import java.io.File;
 import java.io.FileFilter;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import bns.thread.AutoFightKeyThreadAbstract;
 import bns.thread.KeyThreadBase;
 import bns.thread.KeyThreadRun;
 import bns.thread.KeyThreadScript;
+import bns.thread.PixColorThread;
 
 public class BnsThreadManager {
 	private org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(BnsThreadManager.class);
@@ -18,33 +22,47 @@ public class BnsThreadManager {
 	
 	/** 全部线程List*/
 	private Map<Integer, KeyThreadBase> mapThread = null;
-	/** 默认战斗线程1*/
-	private KeyThreadBase thDefault = null;
-	/** 运行中线程*/
-	private KeyThreadBase thRunning = null;
+	/** 默认战斗线程*/
+	private List<KeyThreadBase> thFights = null;
+	/** 取色线程 */
+	private PixColorThread thPixColor = null;
 	/** 线程的ID*/
 	private int indentifyId;
-	
-	private boolean isFightingBefore = false;
 		
 	public BnsThreadManager(BnsFrame frame) {
 		this.frame = frame;
 		mapThread = new HashMap<Integer, KeyThreadBase>();
-		
+		thFights = new ArrayList<KeyThreadBase>();
 	}
 	
 	public void init() {
 		this.indentifyId = BnsConst.LISTEN_ID_KEY_BASE;
-		thDefault = null;
 		
 		//奔跑线程
 		addThread(new KeyThreadRun());
+		
+		//取色线程
+		thPixColor = new PixColorThread();
+		addThread(thPixColor);
+		thFights.add(thPixColor);
 		
 		//根据脚本文件创建线程
 		createScriptThreads(frame.getCareer());
 		
 		//创建自定义技能线程
 		createCustormizeSkillThreads(frame.getCareer());
+	}	
+
+	/**
+	 * 取得取色线程
+	 * @return
+	 */
+	public PixColorThread getPixColorThread() {
+		return thPixColor;
+	}
+
+	public Map<Integer, KeyThreadBase> getThreadMap() {
+		return mapThread;
 	}
 	
 	public void refresh() {
@@ -53,6 +71,7 @@ public class BnsThreadManager {
 		}
 		
 		mapThread.clear();
+		thFights.clear();
 		
 		this.init();
 	}
@@ -83,7 +102,6 @@ public class BnsThreadManager {
 			th.doPause();
 		} else {
 			th.doStart();
-			this.thRunning = th;
 		}
 	}
 	
@@ -92,44 +110,25 @@ public class BnsThreadManager {
 	 * @param indentity
 	 */
 	public void startThread(int indentity) {
-		if (mapThread.containsKey(indentity)) {
+		if (BnsConst.LISTEN_ID_START == indentity) {
+			this.pause();
 			
-			this.setFightingBefore(getDefaultThread().isRun());
-			
-			KeyThreadBase th = mapThread.get(indentity);
-			if (th.isBreakRuning()) {
-				this.pause();
-
-//				try {
-//					Thread.sleep(100);
-//				} catch (Exception e) {
-//
-//				}
-				th.doStart();
-			} else {
+			//战斗热键
+			for (KeyThreadBase th : thFights) {
 				if (!th.isRun()) {
-					
-					this.pause();
 					th.doStart();
 				}
 			}
 			
-			
-			this.thRunning = th;
-			
+		} else if (mapThread.containsKey(indentity)) {
+			// 战斗热键以外
+			KeyThreadBase th = mapThread.get(indentity);
+
+			if (!th.isRun()) {
+				this.pause();
+				th.doStart();
+			}
 		}
-	}
-
-	/**
-	 * 取得默认线程
-	 * @return
-	 */
-	public KeyThreadBase getDefaultThread() {
-		return thDefault;
-	}
-
-	public KeyThreadBase getRuningThread() {		
-		return this.thRunning;
 	}
 	
 	/**
@@ -151,22 +150,17 @@ public class BnsThreadManager {
 		
 		try {
 			for (Class<?> cl : classes) {
-				
-				if (!cl.getSuperclass().getName().contains("KeyThreadAbstract")) continue;
-				
-				KeyThreadBase th = (KeyThreadBase)cl.newInstance();
-				
-				if (th.getKey().equals(BnsUtil.PROP_CONFIG.getProperty("KEY_START"))) {
-					// 开始战斗热键
-					if (this.thDefault == null) {
-						th.setIndentity(BnsConst.LISTEN_ID_START);
-						this.thDefault = th;
-					} 
-				} else {
+				if (cl.getSuperclass().getName().contains("KeyThreadAbstract")) {
+					KeyThreadBase th = (KeyThreadBase)cl.newInstance();
+					
+					//设置取色线程
+					if (th instanceof AutoFightKeyThreadAbstract) {
+						((AutoFightKeyThreadAbstract) th).setThPixColor(thPixColor);
+					}
+					
 					th.setIndentity(++this.indentifyId);
+					addThread(th);
 				}
-				
-				addThread(th);
 			}
 			
 		} catch (Exception e) {
@@ -188,18 +182,10 @@ public class BnsThreadManager {
 				if (file.getName().startsWith("KEY")) {
 					KeyThreadScript th = new KeyThreadScript(file);
 
-					if (th.isOff())
-						continue;
-
-					if (th.getKey().equals(BnsUtil.PROP_CONFIG.getProperty("KEY_START"))) {
-						// 开始战斗热键
-						th.setIndentity(BnsConst.LISTEN_ID_START);
-						this.thDefault = th;
-					} else {
+					if (!th.isOff()) {
 						th.setIndentity(++this.indentifyId);
+						addThread(th);
 					}
-
-					addThread(th);
 				}
 			}
 		}
@@ -262,20 +248,10 @@ public class BnsThreadManager {
     
     private void addThread(KeyThreadBase th) {
     	mapThread.put(th.getIndentity(), th);
+    	
+    	if (th.getKey().equals(BnsUtil.PROP_CONFIG.getProperty("KEY_START"))) {
+			this.thFights.add(th);
+		}
     }
-
-	public Map<Integer, KeyThreadBase> getMapThread() {
-		return mapThread;
-	}
-
-	public boolean isFightingBefore() {
-		return isFightingBefore;
-	}
-
-	public void setFightingBefore(boolean isFightingBefore) {
-		this.isFightingBefore = isFightingBefore;
-	}
-	
-	
 
 }

@@ -16,13 +16,13 @@ public class PixColorThread extends KeyThreadAbstract{
 	private boolean isReady = false;
 	
 	public PixColorThread() {
-		super("");
+		super();
 		mapColorStatus = new HashMap<String, Boolean>();
 		mapColor = BnsPropertiesColor.getInstance().getColorMap();
 	}
 	
 	protected boolean runSkill() throws InterruptedException, Exception{
-		log.debug("runSkill");
+		log.debug("取色线程运行ing");
 		
 		Iterator<String> iter = mapColor.keySet().iterator();
 		String key;
@@ -33,6 +33,8 @@ public class PixColorThread extends KeyThreadAbstract{
 		}
 		
 		isReady = true;
+		
+		this.doSleep(50);
 		
 		return true;
 	}

@@ -49,13 +49,13 @@ public interface BnsConst {
 	int LISTEN_ID_START = 101;
 	
 	/** 战斗停止热键ID*/
-	int LISTEN_ID_STOP = 102;
+	int LISTEN_ID_STOP = 120;
 	
 	/** 奔跑热键ID*/
-	int LISTEN_ID_RUN = 103;
+	int LISTEN_ID_RUN = 130;
 	
 	/** 战斗辅助热键ID*/
-	int LISTEN_ID_HELP = 104;
+	int LISTEN_ID_HELP = 140;
 	
 	/** 每组ID最大数量*/
 	int LISTEN_ID_MAX_NUM = 99;

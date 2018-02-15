@@ -5,12 +5,10 @@ import bns.BnsUtil;
 
 public abstract class AutoFightKeyThreadAbstract extends KeyThreadAbstract {
 //	private org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(AutoFightKeyThreadAbstract.class);
-	PixColorThread thPix;
-	protected boolean isFirstRun = true;
-	
+	private PixColorThread thPixColor = null;
+
 	public AutoFightKeyThreadAbstract() {
 		super(BnsUtil.PROP_CONFIG.getProperty("KEY_START"));
-		thPix = new PixColorThread();
 	}
 	
 	/**
@@ -18,17 +16,7 @@ public abstract class AutoFightKeyThreadAbstract extends KeyThreadAbstract {
 	 */
 	public synchronized void doPause() {
 		fm.setStatus(BnsFrame.STATUS_NO_FIGHTING);
-		thPix.doPause();
 		super.doPause();
-		
-	}
-	
-	/**
-	 * 结束
-	 */
-	public synchronized void doOver() {
-		thPix.doOver();
-		super.doOver();
 	}
 	
 	/**
@@ -36,17 +24,27 @@ public abstract class AutoFightKeyThreadAbstract extends KeyThreadAbstract {
 	 */
 	public synchronized void doStart() {
 		fm.setStatus(BnsFrame.STATUS_FIGHTING);
-		isFirstRun = true;
-		thPix.doStart();
 		super.doStart();
 	}
 	
+	public PixColorThread getThPixColor() {
+		return thPixColor;
+	}
+
+	public void setThPixColor(PixColorThread thPixColor) {
+		this.thPixColor = thPixColor;
+	}
+	
 	/**
-	 * 非即时取色Check
-	 * @param key
+	 * 取色（缓存方式）
+	 * @param colorName
 	 * @return
 	 */
-	protected boolean isColorOkCached(String key) {
-		return thPix.isColorOK(key);
+	protected boolean isColorOkCached(String colorName) {
+		if (thPixColor != null) {
+			return thPixColor.isColorOK(colorName);
+		}
+		
+		return false;
 	}
 }

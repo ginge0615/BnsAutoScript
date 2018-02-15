@@ -72,14 +72,15 @@ public class BnsHotkeyListener implements HotkeyListener {
 	}
 	
 	private void addHotKeyListenerSkill() {
+		this.setupHotKey(BnsUtil.PROP_CONFIG.getProperty("KEY_START"), BnsConst.LISTEN_ID_START);
 		this.setupHotKey(BnsUtil.PROP_CONFIG.getProperty("KEY_STOP"), BnsConst.LISTEN_ID_STOP);
 		this.setupHotKey(BnsUtil.PROP_CONFIG.getProperty("KEY_RUN"), BnsConst.LISTEN_ID_RUN);
 		
-		for (KeyThreadBase th : thManager.getMapThread().values()) {
+		for (KeyThreadBase th : thManager.getThreadMap().values()) {
 			
-			if (th.getIndentity() <= 0) continue;
-			
-//			th.setListner(this);
+			if (th.getIndentity() <= 0 || th.getKey().equals(BnsUtil.PROP_CONFIG.getProperty("KEY_START"))) {
+				continue;
+			}
 			
 			// 记录子热键
 			if (th.isSubThread()) {
